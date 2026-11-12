@@ -1,0 +1,30 @@
+{
+  "comando": "agregar",
+  "argumentos": {
+    "cmd": "agregar",
+    "ini": "202510",
+    "fim": "202609",
+    "recorte": "mun:140010"
+  },
+  "inicio": "2026-11-12T18:30:04-04:00",
+  "fim": "2026-11-12T18:30:04-04:00",
+  "commit": "4c82547",
+  "python": "3.14.4",
+  "pandas": "3.1.1",
+  "py7zr": "1.1.4",
+  "openpyxl": "3.1.5",
+  "entradas": {
+    "dados/linhas/uf14_202510_202609.csv.gz": "cf8457ce9821e838dc92357746d41c2d2609f2ddf47cfa9828bacebda0ee2c06"
+  },
+  "saidas": {
+    "dados/saidas/serie_mensal_mun140010_202510_202609.csv": "91426483916cf75f36d852fbd5726bfb563f146c9e474549f1527ce82817cc9f",
+    "dados/saidas/ocupacoes_mun140010_202510_202609.csv": "fb327ddcec7512bf393b1d9e299623cb69fefaea025c3516e50ca4ccd51f735f"
+  },
+  "resultado": {
+    "admissoes": 49067,
+    "desligamentos": 45836,
+    "saldo": 3231,
+    "deslig_a_pedido": 16894,
+    "ocupacoes": 935
+  }
+}
