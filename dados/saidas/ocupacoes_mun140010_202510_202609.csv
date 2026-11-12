@@ -1,0 +1,936 @@
+cbo2002,titulo,admissoes,desligamentos,saldo,deslig_a_pedido,pct_a_pedido,salario_mediano_admissao,salario_medio_admissao,movimentacoes
+521110,Vendedor de Comercio Varejista,3502,3485,17,1398,40.1,1621.0,1639.12,6987
+521140,Atendente de Lojas e Mercados,3113,2702,411,1383,51.2,1621.0,1620.91,5815
+421125,Operador de Caixa,2860,2748,112,1224,44.5,1621.0,1621.92,5608
+514320,Faxineiro (Desativado em 2010),2631,2081,550,750,36.0,1621.0,1664.59,4712
+411010,Assistente Administrativo,2617,1884,733,626,33.2,1788.77,1991.17,4501
+521125,Repositor de Mercadorias,1373,1350,23,570,42.2,1621.0,1627.79,2723
+411005,"Auxiliar de Escritorio, em Geral",1670,1429,241,508,35.5,1636.02,1800.05,3099
+513505,Auxiliar nos Serviços de Alimentação,1189,1081,108,412,38.1,1621.0,1647.05,2270
+717020,Servente de Obras,1632,1433,199,380,26.5,1630.68,1695.73,3065
+422105,"Recepcionista, em Geral",1030,851,179,379,44.5,1621.0,1670.58,1881
+513435,Atendente de Lanchonete,833,812,21,323,39.8,1621.0,1630.65,1645
+521135,Frentista,790,755,35,274,36.3,1621.0,1602.95,1545
+514120,Zelador de Edificio,899,790,109,268,33.9,1621.0,1627.96,1689
+848510,Acougueiro,586,616,-30,253,41.1,1688.0,1829.55,1202
+514325,Trabalhador da Manutenção de Edificações,802,725,77,246,33.9,1621.0,1670.52,1527
+414105,Almoxarife,649,634,15,237,37.4,1621.0,1712.63,1283
+414125,Estoquista,581,490,91,235,48.0,1621.0,1671.13,1071
+782510,Motorista de Caminhao (Rotas Regionais e Internacionais),787,731,56,232,31.7,2285.62,2372.18,1518
+783225,Ajudante de Motorista,641,480,161,192,40.0,1621.0,1685.94,1121
+521115,Promotor de Vendas,387,346,41,172,49.7,1621.0,1681.18,733
+517330,Vigilante,555,543,12,171,31.5,1672.29,1645.59,1098
+513405,Garcom,380,391,-11,162,41.4,1621.0,1619.05,771
+354125,Assistente de Vendas,269,273,-4,136,49.8,1621.0,1673.64,542
+513205,Cozinheiro Geral,369,404,-35,135,33.4,1621.0,1775.6,773
+784205,Alimentador de Linha de Producao,369,361,8,131,36.3,1621.0,1728.08,730
+782310,Motorista de Furgao ou Veiculo Similar,514,466,48,130,27.9,2000.0,2026.78,980
+514225,Trabalhador de Servicos de Limpeza e Conservacao de Areas Publicas,455,393,62,128,32.6,1621.0,1622.58,848
+517425,Fiscal de Loja,250,233,17,126,54.1,1675.0,1751.21,483
+715210,Pedreiro,603,673,-70,119,17.7,2614.97,2535.81,1276
+322205,Tecnico de Enfermagem,274,250,24,117,46.8,1621.0,2035.42,524
+223405,Farmaceutico,222,198,24,111,56.1,2323.64,2712.52,420
+784105,"Embalador, a Mao",298,233,65,111,47.6,1621.0,1657.23,531
+414110,Armazenista,299,236,63,106,44.9,1621.0,1643.86,535
+848525,Retalhador de Carne,233,214,19,87,40.7,1621.0,1663.88,447
+519110,Motociclista no Transporte de Documentos e Pequenos Volumes,219,209,10,85,40.7,1621.0,1655.33,428
+414215,Conferente de Carga e Descarga,113,194,-81,81,41.8,1849.0,1926.8,307
+414140,Auxiliar de Logistica,299,219,80,80,36.5,1621.0,1793.73,518
+521130,Atendente de Farmacia - Balconista,139,151,-12,79,52.3,1621.0,1617.77,290
+782410,Motorista de Onibus Urbano,161,176,-15,78,44.3,2050.29,2106.25,337
+715615,Eletricista de Instalacoes,235,221,14,73,33.0,1798.0,2081.21,456
+782305,Motorista de Carro de Passeio,342,256,86,73,28.5,1767.01,1940.33,598
+514310,Auxiliar de Manutenção Predial,185,260,-75,65,25.0,1621.0,1730.03,445
+517420,Vigia,388,309,79,64,20.7,1632.0,1683.99,697
+422110,Recepcionista de Consultorio Medico ou Dentario,163,149,14,62,41.6,1621.0,1674.92,312
+514205,Coletor de Lixo Domiciliar,224,219,5,62,28.3,1650.0,1624.96,443
+623310,Trabalhador da Avicultura de Postura,114,115,-1,59,51.3,1621.0,1603.81,229
+223505,Enfermeiro,135,111,24,58,52.3,2437.5,3621.39,246
+914405,"Mecanico de Manutencao de Automoveis, Motocicletas e Veiculos Similares",169,166,3,58,34.9,1621.0,1881.58,335
+517410,Porteiro de Edificios,158,196,-38,56,28.6,1636.02,1696.62,354
+783210,Carregador (Armazem),205,166,39,56,33.7,1693.95,1710.87,371
+410105,Supervisor Administrativo,157,223,-66,55,24.7,2340.5,2774.05,380
+513415,Cumim,135,114,21,53,46.5,1621.0,1632.05,249
+524105,Vendedor em Domicilio,171,133,38,50,37.6,1621.0,1657.05,304
+413110,Auxiliar de Contabilidade,134,127,7,49,38.6,1899.0,2062.2,261
+252305,Secretaria  Executiva,229,144,85,46,31.9,1807.08,3144.69,373
+412205,Continuo,135,136,-1,44,32.4,1621.0,1646.67,271
+519935,Lavador de Veiculos,110,88,22,44,50.0,1621.0,1660.54,198
+519940,Leiturista,139,56,83,43,76.8,1621.0,1621.0,195
+521105,Vendedor em Comercio Atacadista,125,118,7,43,36.4,1621.0,1790.33,243
+142105,Gerente Administrativo,198,228,-30,42,18.4,2500.0,2856.86,426
+371410,Recreador,90,93,-3,41,44.1,1621.0,1625.21,183
+513315,Camareiro  de Hotel,121,104,17,39,37.5,1621.0,1615.53,225
+142305,Gerente Comercial,74,108,-34,38,35.2,2303.5,3037.31,182
+231105,Professor de Nivel Superior na Educacao Infantil (Quatro a Seis Anos),70,71,-1,37,52.1,1740.04,1830.14,141
+331110,Auxiliar de Desenvolvimento Infantil,184,152,32,37,24.3,1636.02,1609.66,336
+841805,"Operador de Forno (Fabricacao de Paes, Biscoitos e Similares)",38,64,-26,37,57.8,1682.32,1700.74,102
+334110,Inspetor de Alunos de Escola Publica,87,89,-2,35,39.3,1636.02,1615.0,176
+513420,Barman,65,78,-13,34,43.6,1621.0,1688.02,143
+513425,Copeiro,134,181,-47,34,18.8,1621.0,1629.99,315
+783215,Carregador (Veiculos de Transportes Terrestres),111,91,20,34,37.4,1621.0,1666.7,202
+715115,Operador de Escavadeira,92,94,-2,33,35.1,2994.81,2983.99,186
+141415,Gerente de Loja e Supermercado,92,132,-40,32,24.2,2300.0,2743.33,224
+354120,Agente de Vendas de Servicos,71,143,-72,32,22.4,1621.0,1796.22,214
+411030,Auxiliar de Pessoal,96,74,22,31,41.9,1707.14,1945.28,170
+621005,Trabalhador Agropecuario em Geral,64,59,5,31,52.5,1621.0,1738.47,123
+848305,Padeiro,84,118,-34,31,26.3,1621.0,1776.04,202
+421105,Atendente Comercial (Agencia Postal),56,66,-10,29,43.9,1621.0,1684.19,122
+771105,Marceneiro,57,71,-14,29,40.8,1624.26,1762.1,128
+252105,Administrador,78,92,-14,28,30.4,3280.89,4201.8,170
+716610,Pintor de Obras,181,169,12,28,16.6,2614.97,2428.13,350
+732120,Instalador de Linhas Eletricas de Alta e Baixa - Tensao (Rede Aerea e Subterranea),83,189,-106,28,14.8,1979.53,2033.72,272
+141410,Comerciante Varejista,76,63,13,27,42.9,1621.0,1778.71,139
+324205,Tecnico em Patologia Clinica,54,45,9,27,60.0,1621.0,1700.98,99
+782220,Operador de Empilhadeira,39,70,-31,27,38.6,2150.0,2023.68,109
+234510,Professor de Ensino Superior na Area de Orientacao Educacional,34,34,0,26,76.5,,,68
+513605,Churrasqueiro,73,68,5,26,38.2,1621.0,1661.65,141
+710205,Mestre (Construcao Civil),119,169,-50,26,15.4,3675.46,3739.87,288
+514110,Garagista,59,44,15,25,56.8,1621.0,1619.15,103
+354140,Tecnico em Atendimento e Vendas,72,56,16,24,42.9,1876.6,1850.66,128
+142320,Gerente de Vendas,38,88,-50,23,26.1,2000.0,2825.71,126
+513610,Pizzaiolo,38,49,-11,23,46.9,1621.0,1750.14,87
+520110,Supervisor de Vendas Comercial,49,84,-35,23,27.4,2000.0,2482.87,133
+848310,Confeiteiro,78,71,7,23,32.4,1621.0,1770.23,149
+262410,Desenhista Industrial Grafico (Designer Grafico),50,53,-3,22,41.5,2000.0,1953.16,103
+391205,Inspetor de Qualidade,41,40,1,22,55.0,1800.0,1868.9,81
+234505,Professor de Ensino Superior na Area de Didatica,48,30,18,21,70.0,906.57,1789.62,78
+334105,Inspetor de Alunos de Escola Privada,49,43,6,21,48.8,1621.0,1645.15,92
+351605,Tecnico em Seguranca no Trabalho,192,77,115,21,27.3,2006.76,2410.15,269
+422310,Operador de Telemarketing Ativo e Receptivo,106,100,6,21,21.0,1602.78,1603.16,206
+911205,Mecanico de Manutencao e Instalacao de Aparelhos de Climatizacao e  Refrigeracao,51,40,11,21,52.5,1621.0,1711.68,91
+413115,Auxiliar de Faturamento,48,52,-4,20,38.5,1996.98,2043.46,100
+821215,Forneiro e Operador (Forno Eletrico),30,26,4,20,76.9,1621.0,1622.39,56
+862150,"Operador de Maquinas Fixas, em Geral",44,46,-2,20,43.5,1621.0,1684.94,90
+234520,Professor de Ensino Superior na Area de Pratica de Ensino,46,31,15,19,61.3,,,77
+314115,"Tecnico Mecanico (Calefacao, Ventilacao e Refrigeracao)",81,78,3,19,24.4,1800.0,1903.16,159
+414120,Conferente Mercadoria (Exceto Carga e Descarga),36,59,-23,19,32.2,1621.0,1804.82,95
+422120,Recepcionista de Hotel,60,65,-5,19,29.2,1621.0,1627.76,125
+513615,Sushiman,27,35,-8,19,54.3,1752.5,1748.45,62
+231210,Professor de Nivel Superior do Ensino Fundamental (Primeira a Quarta Serie),47,31,16,18,58.1,2000.0,2222.22,78
+312105,Tecnico de Obras Civis,58,46,12,18,39.1,2500.0,2804.24,104
+512105,Empregado  Domestico  nos Servicos Gerais,58,53,5,18,34.0,1621.0,1686.98,111
+513440,Barista,28,35,-7,18,51.4,1621.0,1617.86,63
+715525,Carpinteiro de Obras,37,61,-24,18,29.5,2614.97,2604.0,98
+724440,Serralheiro,68,68,0,18,26.5,1866.59,2062.05,136
+224120,Preparador Fisico,45,49,-4,17,34.7,1700.0,2155.0,94
+252210,Contador,38,43,-5,17,39.5,3000.0,3707.25,81
+354145,Vendedor Pracista,40,41,-1,17,41.5,1621.0,1701.62,81
+622010,Jardineiro,52,41,11,17,41.5,1691.93,1732.88,93
+782405,Motorista de Onibus Rodoviario,68,50,18,17,34.0,1965.57,1973.81,118
+212405,Analista de Desenvolvimento de Sistemas,31,33,-2,16,48.5,2110.0,2600.83,64
+239415,Pedagogo,24,35,-11,16,45.7,1700.0,2318.35,59
+252405,Analista de Recursos Humanos,48,50,-2,16,32.0,3000.0,3766.65,98
+317210,Tecnico de Apoio ao Usuario de Informatica (Helpdesk),39,39,0,16,41.0,1800.0,2205.28,78
+354130,Promotor de Vendas Especializado,35,32,3,16,50.0,1621.0,1658.84,67
+420105,Supervisor de Caixas e Bilheteiros (Exceto Caixa de Banco),7,35,-28,16,45.7,2050.0,2228.82,42
+763210,Costureiro na Confeccao em Serie,35,32,3,16,50.0,1621.0,1741.73,67
+992225,Auxiliar Geral de Conservacao de Vias Permanentes (Exceto Trilhos),52,34,18,16,47.1,1621.0,2038.12,86
+231110,Professor de Nivel Superior na Educacao Infantil (Zero a Tres Anos),49,30,19,15,50.0,2365.34,2104.47,79
+239405,Coordenador Pedagogico,39,38,1,15,39.5,2900.0,3189.42,77
+322405,Tecnico em Saude Bucal,37,26,11,15,57.7,1621.0,1660.89,63
+414135,Expedidor de Mercadorias,48,24,24,15,62.5,1640.66,1804.49,72
+715315,Armador de Estrutura de Concreto Armado,60,86,-26,15,17.4,2614.97,2480.41,146
+724315,Soldador,46,57,-11,15,26.3,2637.5,2688.1,103
+783205,Carregador (Aeronaves),42,25,17,15,60.0,1874.25,1458.45,67
+325205,Tecnico de Alimentos,24,22,2,14,63.6,1762.47,1915.6,46
+516345,Auxiliar de Lavanderia,42,33,9,14,42.4,1621.0,1631.07,75
+521120,Demonstrador de Mercadorias,52,39,13,14,35.9,1621.0,1619.35,91
+716305,Vidraceiro,29,27,2,14,51.9,1621.0,1708.65,56
+732130,Instalador-Reparador de Redes Telefonicas e de Comunicacao de Dados,61,38,23,14,36.8,1732.15,1719.58,99
+848520,Magarefe,66,47,19,14,29.8,1621.0,1693.86,113
+317205,Operador de Computador (Inclusive Microcomputador),59,60,-1,13,21.7,1854.5,1891.83,119
+322415,Auxiliar em Saude Bucal,40,41,-1,13,31.7,1621.0,1794.52,81
+354205,Comprador,34,34,0,13,38.2,3216.75,3364.53,68
+413205,Atendente de Agencia,33,22,11,13,59.1,1621.0,1803.05,55
+519315,Banhista de Animais Domesticos,30,24,6,13,54.2,1621.0,1617.45,54
+622020,Trabalhador Volante da Agricultura,49,45,4,13,28.9,1621.0,1769.06,94
+724205,Montador de Estruturas Metalicas,55,71,-16,13,18.3,1800.0,2029.71,126
+731320,Instalador-Reparador de Linhas e Aparelhos de Telecomunicacoes,17,59,-42,13,22.0,1621.0,1658.47,76
+823320,Trabalhador da Elaboracao de Pre-Fabricados (Cimento Amianto),24,16,8,13,81.2,1630.68,1490.96,40
+212420,Analista de Suporte Computacional,22,23,-1,12,52.2,1621.0,2163.57,45
+253405,Analista De Mídias Sociais,33,24,9,12,50.0,1796.75,1910.93,57
+313220,Tecnico em Manutencao de Equipamentos de Informatica,29,24,5,12,50.0,2000.0,2125.78,53
+414205,Apontador de Mao-De-Obra,41,50,-9,12,24.0,1915.0,2066.18,91
+516205,Baba,19,15,4,12,80.0,1621.0,1730.18,34
+715505,Carpinteiro,59,94,-35,12,12.8,2484.64,2457.59,153
+223605,Fisioterapeuta Geral,25,27,-2,11,40.7,2465.75,2981.89,52
+253215,Gerente de Contas - Pessoa Fisica e Juridica,18,24,-6,11,45.8,4750.0,5162.42,42
+334115,Monitor de Transporte Escolar,22,15,7,11,73.3,1621.0,1597.59,37
+784120,Operador de Maquina de Envasar Liquidos,24,20,4,11,55.0,2796.0,2746.87,44
+234616,Professor de Lingua Inglesa,22,21,1,10,47.6,3153.0,2726.57,43
+374405,Editor de Tv  e Video,17,18,-1,10,55.6,1786.85,2122.35,35
+411050,Agente de Microcrédito,12,19,-7,10,52.6,1621.0,1617.75,31
+422315,Operador de Telemarketing Receptivo,34,34,0,10,29.4,1621.0,1660.94,68
+516220,Cuidador em Saúde,20,16,4,10,62.5,2500.0,2160.6,36
+519320,Tosador de Animais Domesticos,11,17,-6,10,58.8,1621.0,1731.41,28
+519930,"Lavador de Garrafas, Vidros e Outros Utensilios",29,17,12,10,58.8,1621.0,1622.82,46
+641010,Operador de Maquinas de Beneficiamento de Produtos Agricolas,32,26,6,10,38.5,3041.0,2876.67,58
+914425,Mecanico de Veiculos Automotores a Diesel (Exceto Tratores),18,20,-2,10,50.0,2398.4,2503.36,38
+992215,Operador de Ceifadeira na Conservacao de Vias Permanentes,43,54,-11,10,18.5,1690.88,1657.76,97
+142330,Analista de Negocios (A),14,23,-9,9,39.1,1980.0,3075.77,37
+223710,Nutricionista,36,38,-2,9,23.7,3600.0,3664.57,74
+231315,Professor de Educacao Fisica do Ensino Fundamental,21,15,6,9,60.0,2375.0,2761.83,36
+313105,Eletrotecnico,23,65,-42,9,13.8,2110.42,3452.33,88
+325210,Técnico em Nutrição e Dietética,10,25,-15,9,36.0,2243.49,2132.96,35
+351405,Escrevente,20,19,1,9,47.4,2800.0,2534.55,39
+411025,Auxiliar de Cartorio,27,24,3,9,37.5,2000.0,1974.7,51
+414210,Apontador de Producao,21,28,-7,9,32.1,1621.0,1864.0,49
+519305,Auxiliar de Veterinario,26,31,-5,9,29.0,1621.0,1657.18,57
+715110,Operador de Compactadora de Solos,55,52,3,9,17.3,2219.29,2270.05,107
+715130,Operador de Motoniveladora,20,27,-7,9,33.3,3751.0,3662.88,47
+763215,"Costureiro, a  Maquina  na Confeccao em Serie",16,16,0,9,56.2,1600.74,1631.97,32
+848315,Masseiro (Massas Alimenticias),26,23,3,9,39.1,1621.0,1717.19,49
+141510,Gerente de Restaurante,12,32,-20,8,25.0,2450.0,2564.85,44
+239220,Professor de Alunos com Deficiencia Multipla,1,14,-13,8,57.1,,,15
+239410,Orientador Educacional,22,20,2,8,40.0,1461.55,1875.95,42
+415130,Operador de Maquina Copiadora (Exceto Operador de Grafica Rapida),28,20,8,8,40.0,1621.0,1680.7,48
+422320,Operador de Telemarketing Tecnico,14,14,0,8,57.1,1621.0,1621.0,28
+517415,Porteiro de Locais de Diversao,91,53,38,8,15.1,1636.02,1650.49,144
+715135,Operador de Pa Carregadeira,20,24,-4,8,33.3,2682.0,2619.08,44
+724110,Encanador,32,30,2,8,26.7,2614.97,2574.04,62
+725705,Mecanico de Refrigeracao,35,27,8,8,29.6,1621.0,1908.71,62
+731325,Instalador-Reparador de Redes e Cabos Telefonicos,14,18,-4,8,44.4,1631.0,1628.86,32
+841484,Trabalhador de Preparacao de Pescados (Limpeza),25,17,8,8,47.1,1621.0,1619.48,42
+911305,"Mecanico de Manutencao de Maquinas, em Geral",40,40,0,8,20.0,3470.0,3256.47,80
+913120,Mecanico de Manutencao de Maquinas de Construcao e Terraplenagem,20,21,-1,8,38.1,3629.0,3281.3,41
+992115,Borracheiro,30,21,9,8,38.1,1621.0,1683.18,51
+232105,Professor de Artes no Ensino Medio,10,7,3,7,100.0,,,17
+233210,Instrutor de Aprendizagem e Treinamento Industrial,11,14,-3,7,50.0,3418.46,2937.83,25
+233225,Professor Instrutor de Ensino e Aprendizagem em Servicos,24,20,4,7,35.0,3464.47,3048.39,44
+252545,Analista Financeiro (Instituicoes Financeiras),25,20,5,7,35.0,2500.0,2863.01,45
+253110,Redator de Publicidade,9,10,-1,7,70.0,1621.0,1812.5,19
+312320,Topografo,25,33,-8,7,21.2,1849.49,2445.53,58
+374110,Tecnico em Instalacao de Equipamentos de Audio,13,14,-1,7,50.0,1621.0,1818.72,27
+410240,Supervisor de Logistica,23,29,-6,7,24.1,2400.0,2982.81,52
+412110,Digitador,24,35,-11,7,20.0,2064.1,1920.87,59
+413210,Caixa de Banco,21,21,0,7,33.3,1621.0,2083.64,42
+421120,Emissor de Passagens,15,18,-3,7,38.9,1621.0,1608.44,33
+421310,Cobrador Interno,22,15,7,7,46.7,1863.5,2041.19,37
+423115,,12,13,-1,7,53.8,1660.5,1641.58,25
+510130,Chefe de Bar,8,15,-7,7,46.7,1621.0,1719.74,23
+515210,Auxiliar de Farmacia de Manipulacao,39,24,15,7,29.2,1621.0,1661.35,63
+515215,Auxiliar de Laboratorio de Analises Clinicas,21,18,3,7,38.9,1621.0,1622.96,39
+623110,Trabalhador da Pecuaria (Bovinos Corte),18,17,1,7,41.2,2000.0,2063.18,35
+631325,Criador de Peixes,31,20,11,7,35.0,1621.0,1652.61,51
+715125,Operador de Maquinas de Construcao Civil e Mineracao,21,30,-9,7,23.3,2994.81,2835.1,51
+715230,Pedreiro de Edificacoes,22,25,-3,7,28.0,2614.97,2635.65,47
+716525,Marmorista (Construcao),11,17,-6,7,41.2,2000.0,2090.32,28
+732110,Emendador de Cabos Eletricos e Telefonicos (Aereos e Subterraneos),19,25,-6,7,28.0,1598.76,1635.45,44
+774105,Montador de Moveis e Artefatos de Madeira,23,19,4,7,36.8,1628.39,1787.58,42
+782115,Operador de Guindaste Movel,18,28,-10,7,25.0,3200.0,3080.2,46
+782320,Condutor de Ambulancia,69,26,43,7,26.9,1886.98,1921.13,95
+823325,Trabalhador da Elaboracao de Pre-Fabricados (Concreto Armado),10,17,-7,7,41.2,1700.0,1780.0,27
+861115,Operador de Central Termoeletrica,22,72,-50,7,9.7,2540.64,2693.59,94
+951320,Monitor de Sistemas Eletronicos de Seguranca Externo,18,16,2,7,43.8,1621.0,1576.61,34
+141205,Gerente de Producao e Operacoes,25,30,-5,6,20.0,2220.0,3950.1,55
+141615,Gerente de Logistica (Armazenagem e Distribuicao),23,27,-4,6,22.2,3213.49,2968.37,50
+142205,Gerente de Recursos Humanos,11,17,-6,6,35.3,3250.0,3348.93,28
+253115,Agente Publicitario,16,12,4,6,50.0,1946.48,2132.83,28
+271105,Chefe de Cozinha (Desativado em 2010),19,24,-5,6,25.0,2000.0,2211.03,43
+333105,Instrutor de Auto-Escola,5,21,-16,6,28.6,1621.0,1579.8,26
+333110,Instrutor de Cursos Livres,17,17,0,6,35.3,2509.94,2309.99,34
+333115,Professores de Cursos Livres,9,19,-10,6,31.6,1621.0,1621.0,28
+351430,Auxiliar de Servicos Juridicos,14,13,1,6,46.2,1850.0,2464.1,27
+351505,Tecnico em Secretariado,15,21,-6,6,28.6,1621.0,1737.57,36
+410205,Supervisor de Almoxarifado,18,28,-10,6,21.4,3295.0,3648.04,46
+515110,Atendente de Enfermagem,23,23,0,6,26.1,1621.0,1694.67,46
+725205,Montador de Maquinas,10,14,-4,6,42.9,3285.5,3158.05,24
+841408,Cozinhador (Conservacao de Alimentos),19,37,-18,6,16.2,1621.0,1711.5,56
+841472,Refinador de Oleo e Gordura,7,8,-1,6,75.0,2796.0,2792.14,15
+848515,Desossador,10,18,-8,6,33.3,1895.0,2068.1,28
+911120,Mecanico de Manutencao de Motores Diesel (Exceto de Veiculos Automotores),5,27,-22,6,22.2,1621.0,1747.6,32
+991310,Montador de Veiculos (Reparacao),13,19,-6,6,31.6,1621.0,1744.04,32
+131120,Gerente de Servicos Sociais,46,63,-17,5,7.9,7064.03,7667.41,109
+142335,Analista de Pesquisa de Mercado (A),24,26,-2,5,19.2,2625.0,2674.05,50
+214205,Engenheiro Civil,16,16,0,5,31.2,6500.0,7509.84,32
+224140,Profissional De Educação Física Na Saúde,27,19,8,5,26.3,1621.0,1974.96,46
+231330,Professor de Lingua Estrangeira Moderna do Ensino Fundamental,9,8,1,5,62.5,1934.0,1934.0,17
+231335,Professor de Lingua Portuguesa do Ensino Fundamental,4,8,-4,5,62.5,,,12
+324115,Tecnico em Radiologia e Imagenologia,26,12,14,5,41.7,3038.01,2930.88,38
+341105,Piloto Comercial (Exceto Linhas Aereas),20,7,13,5,71.4,3296.48,4134.22,27
+342125,Tecnólogo em Logistica de Transporte,8,10,-2,5,50.0,1823.6,2162.84,18
+391115,Controlador de Entrada e Saida,25,14,11,5,35.7,1810.0,1816.05,39
+411045,Auxiliar de Servicos de Importacao e Exportacao,13,10,3,5,50.0,1626.0,1670.15,23
+421205,Recebedor de Apostas (Loteria),19,19,0,5,26.3,1621.0,1582.05,38
+422205,Telefonista,12,11,1,5,45.5,1621.0,1670.11,23
+515310,Agente de Ação Social,55,65,-10,5,7.7,3464.47,3674.25,120
+519325,,12,9,3,5,55.6,1000.0,1051.75,21
+519910,Controlador de Pragas,13,40,-27,5,12.5,1621.0,1609.38,53
+622510,Trabalhador no Cultivo de Especies Frutiferas Rasteiras,9,13,-4,5,38.5,1621.0,1598.11,22
+623020,Tratador de Animais,9,9,0,5,55.6,1621.0,1637.08,18
+632120,Operador de Motosserra,4,14,-10,5,35.7,1927.45,1897.11,18
+724130,Instalador de Tubulacoes de Gas Combustivel (Producao e Distribuicao),6,8,-2,5,62.5,1601.49,1607.99,14
+724415,Chapeador,2,7,-5,5,71.4,1624.5,1624.5,9
+766230,Impressor Digital,9,6,3,5,83.3,2000.0,1858.05,15
+783105,Agente de Patio,11,7,4,5,71.4,1800.0,1755.86,18
+821205,Forneiro e Operador (Alto-Forno),9,13,-4,5,38.5,1621.0,1647.09,22
+823305,Classificador e Empilhador de Tijolos Refratarios,9,7,2,5,71.4,1650.27,1613.33,16
+823315,Forneiro (Materiais de Construcao),9,14,-5,5,35.7,1813.26,1800.96,23
+913115,Mecanico de Manutencao de Maquinas Agricolas,15,23,-8,5,21.7,1846.25,2377.3,38
+919110,Lubrificador de Veiculos Automotores (Exceto Embarcacoes),16,20,-4,5,25.0,1798.76,1915.46,36
+142315,Gerente de Marketing,13,13,0,4,30.8,2000.0,3011.33,26
+215305,Piloto de Aeronaves,7,7,0,4,57.1,3250.97,3250.97,14
+221205,Biomédico,26,19,7,4,21.1,2175.0,2307.58,45
+223810,Fonoaudiologo,9,18,-9,4,22.2,4000.0,4433.09,27
+231205,Professor da  Educacao de Jovens e Adultos do Ensino Fundamental (Primeira a Quarta Serie),4,9,-5,4,44.4,2325.0,2325.0,13
+231305,Professor de Ciencias Exatas e Naturais do Ensino Fundamental,3,4,-1,4,100.0,,,7
+251215,Economista Financeiro,11,9,2,4,44.4,2650.0,2583.42,20
+251510,Psicologo Clinico,10,12,-2,4,33.3,3250.0,3430.05,22
+251605,Assistente Social,30,39,-9,4,10.3,3464.47,3479.82,69
+252525,Analista de Credito (Instituicoes Financeiras),1,6,-5,4,66.7,1621.0,1621.0,7
+252715,Analista de Logistica,9,9,0,4,44.4,2414.48,2332.82,18
+261125,Jornalista,9,10,-1,4,40.0,3242.0,4139.07,19
+262125,Produtor de Televisao,7,5,2,4,80.0,2706.25,2673.5,12
+300110,Tecnico em Mecatronica - Robotica,6,6,0,4,66.7,2000.0,1875.0,12
+301105,Tecnico de Laboratorio Industrial,5,4,1,4,100.0,2908.0,2372.6,9
+313205,Tecnico de Manutencao Eletronica,9,10,-1,4,40.0,2110.0,2793.62,19
+313305,Tecnico de Comunicacao de Dados,2,12,-10,4,33.3,1772.25,1772.25,14
+313505,Tecnico em Fotonica,5,8,-3,4,50.0,1720.0,1801.4,13
+354135,Tecnico de Vendas,10,10,0,4,40.0,2000.0,1946.45,20
+372205,Operador de Rede de Teleprocessamento,5,6,-1,4,66.7,2029.8,1879.06,11
+391210,Tecnico de Garantia da Qualidade,11,8,3,4,50.0,2000.0,2051.3,19
+391215,Operador de Inspecao de Qualidade,12,9,3,4,44.4,1781.48,2008.96,21
+420125,Supervisor de Recepcionistas,2,10,-8,4,40.0,1850.0,1850.0,12
+510310,Supervisor de Vigilantes,8,14,-6,4,28.6,2087.0,2048.32,22
+519210,Selecionador de Material Reciclável,8,9,-1,4,44.4,1621.0,1631.66,17
+519905,Cartazeiro,5,7,-2,4,57.1,1621.0,1617.1,12
+641015,Tratorista Agricola,31,40,-9,4,10.0,2300.0,2437.02,71
+711210,Operador de Carregadeira,12,15,-3,4,26.7,2500.0,2497.72,27
+715405,Operador de Betoneira,10,28,-18,4,14.3,1706.36,1968.65,38
+715605,Eletricista de Instalacoes (Cenarios),26,20,6,4,20.0,1924.03,2023.99,46
+715705,Aplicador de Asfalto Impermeabilizante (Coberturas),12,12,0,4,33.3,2200.0,2520.83,24
+732140,Instalador de Sistemas Fotovoltaicos,14,16,-2,4,25.0,1621.0,1865.11,30
+763310,"Bordador, À Maquina",6,7,-1,4,57.1,1621.0,1983.42,13
+763325,Passadeira de Pecas Confeccionadas,9,7,2,4,57.1,1700.0,1689.05,16
+784110,"Embalador, a Maquina",9,9,0,4,44.4,1621.0,1575.22,18
+821310,Operador de Laminador de Barras a Frio,9,13,-4,4,30.8,1621.0,1605.22,22
+821445,Preparador de Sucata e Aparas,3,12,-9,4,33.3,1629.31,1629.31,15
+828110,Oleiro (Fabricacao de Tijolos),34,30,4,4,13.3,1702.59,1808.85,64
+840105,Supervisor de Producao da Industria Alimenticia,12,14,-2,4,28.6,1621.0,1831.98,26
+848110,Salgador de Alimentos,7,10,-3,4,40.0,1621.0,1840.57,17
+862155,"Operador de Utilidade (Producao e Distribuicao de Vapor, Gas, Oleo, Combustivel, Energia, Oxigenio)",15,7,8,4,57.1,3150.0,3090.38,22
+951305,Instalador de Sistemas Eletroeletronicos de Seguranca,6,11,-5,4,36.4,1710.5,1680.67,17
+951315,Monitor de Sistemas Eletronicos de Seguranca Interno,9,9,0,4,44.4,1621.0,1743.68,18
+991305,Funileiro de Veiculos (Reparacao),8,5,3,4,80.0,1621.0,1747.56,13
+131305,Diretor de Instituicao Educacional da Area Privada,7,8,-1,3,37.5,4000.0,7877.0,15
+142115,Gerente Financeiro,24,28,-4,3,10.7,3268.0,3415.11,52
+212410,Analista de Redes e de Comunicacao de Dados,12,7,5,3,42.9,3657.5,3599.86,19
+231310,Professor de Educacao Artistica do Ensino Fundamental,6,3,3,3,100.0,1621.0,1657.47,9
+231320,Professor de Geografia do Ensino Fundamental,7,7,0,3,42.9,,,14
+231340,Professor de Matematica do Ensino Fundamental,4,6,-2,3,50.0,,,10
+232115,Professor de Disciplinas Pedagogicas no Ensino Medio,6,10,-4,3,30.0,,,16
+232150,Professor de Lingua Estrangeira Moderna no Ensino Medio,6,6,0,3,50.0,,,12
+233125,Professor de Tecnicas de Enfermagem,0,3,-3,3,100.0,,,3
+234620,Professor de Lingua Espanhola,5,4,1,3,75.0,,,9
+234668,Professor de Linguas Estrangeiras Modernas,5,3,2,3,100.0,1850.0,1850.0,8
+234915,Professor de Musica no Ensino Superior,2,3,-1,3,100.0,,,5
+241005,Advogado,10,8,2,3,37.5,2250.0,3498.58,18
+252205,Auditor (Contadores e Afins),2,5,-3,3,60.0,8660.06,8660.06,7
+252725,Analista de Gestao de Estoque,2,6,-4,3,50.0,3500.0,3500.0,8
+261110,Assessor de Imprensa,2,6,-4,3,50.0,3101.12,3101.12,8
+261425,Intérprete de Língua de Sinais,39,25,14,3,12.0,2281.68,2258.56,64
+261715,Locutor de Radio e Televisao,4,7,-3,3,42.9,2013.66,2081.76,11
+262830,Professor de Danca,2,6,-4,3,50.0,1850.0,1850.0,8
+311710,Colorista Textil,14,11,3,3,27.3,1621.0,1646.7,25
+313215,Tecnico Eletronico,14,11,3,3,27.3,1621.0,1717.24,25
+313310,Tecnico de Rede (Telecomunicacoes),14,11,3,3,27.3,1621.0,1610.19,25
+314410,Tecnico em Manutencao de Maquinas,6,8,-2,3,37.5,2112.88,2126.62,14
+317110,Programador de Sistemas de Informacao,14,8,6,3,37.5,1687.62,2921.21,22
+318505,Desenhista Projetista de Arquitetura,5,13,-8,3,23.1,2500.0,2407.2,18
+318510,Desenhista Projetista de Construcao Civil,4,4,0,3,75.0,3585.0,3585.0,8
+322130,Esteticista,14,13,1,3,23.1,1900.0,1990.21,27
+325115,Técnico em Farmácia,5,3,2,3,100.0,1621.0,1986.0,8
+332105,Professor Leigo no Ensino Fundamental,13,10,3,3,30.0,1991.38,2093.5,23
+342120,Afretador,11,9,2,3,33.3,1745.0,1757.32,20
+342205,Ajudante de Despachante Aduaneiro,8,6,2,3,50.0,1795.01,1766.02,14
+354210,Supervisor de Compras,4,10,-6,3,30.0,3121.0,2993.96,14
+354815,Agente de Viagem,17,15,2,3,20.0,1621.0,1621.0,32
+372115,Operador de Camera de Televisao,8,8,0,3,37.5,1782.13,1820.52,16
+413225,Escriturario de Banco,11,26,-15,3,11.5,2281.61,2438.35,37
+415205,Carteiro,0,4,-4,3,75.0,,,4
+421305,Cobrador Externo,9,13,-4,3,23.1,1621.0,1508.96,22
+514335,,4,3,1,3,100.0,1621.0,1621.0,7
+516305,"Lavadeiro, em Geral",6,8,-2,3,37.5,1621.0,1636.88,14
+516505,Agente Funerario,8,8,0,3,37.5,1621.0,1420.81,16
+517110,Bombeiro Civil,20,24,-4,3,12.5,2145.0,2181.99,44
+517310,Agente de Seguranca,11,6,5,3,50.0,1849.0,1750.78,17
+715140,"Operador de Pavimentadora (Asfalto, Concreto e Materiais Similares)",20,16,4,3,18.8,2130.74,2382.48,36
+715205,Calceteiro,19,12,7,3,25.0,1950.0,2193.83,31
+715410,Operador de Bomba de Concreto,15,19,-4,3,15.8,2443.9,2403.26,34
+724220,Preparador de Estruturas Metalicas,10,8,2,3,37.5,1706.36,1689.52,18
+766120,Editor de Texto e Imagem,4,3,1,3,100.0,2350.0,2488.59,7
+766205,Impressor (Serigrafia),3,3,0,3,100.0,1621.0,1680.67,6
+782505,Caminhoneiro Autonomo (Rotas Regionais e Internacionais),12,8,4,3,37.5,2500.0,2463.43,20
+782515,Motorista Operacional de Guincho,34,25,9,3,12.0,2758.01,2763.55,59
+821105,Operador de Centro de Controle,5,7,-2,3,42.9,2908.0,2908.0,12
+848325,Trabalhador de Fabricacao de Sorvete,22,19,3,3,15.8,1621.0,1612.49,41
+848420,Degustador de Vinhos ou Licores,8,5,3,3,60.0,1621.0,1627.0,13
+862160,Operador de Abastecimento de Combustivel de Aeronave,4,4,0,3,75.0,1914.12,1914.12,8
+910205,Supervisor da Manutencao e Reparacao de Veiculos Leves,2,5,-3,3,60.0,3800.0,3800.0,7
+914420,Mecanico de Manutencao de Tratores,6,9,-3,3,33.3,1670.78,2469.49,15
+992105,Alinhador de Pneus,8,7,1,3,42.9,1621.0,1616.12,15
+992120,Lavador de Pecas,11,8,3,3,37.5,1650.0,1880.07,19
+111120,Vereador,7,5,2,2,40.0,1621.0,1621.0,12
+141515,Gerente de Bar,12,13,-1,2,15.4,2035.64,2085.83,25
+142210,Gerente de Departamento Pessoal,8,7,1,2,28.6,2851.49,2689.57,15
+142310,Gerente de Comunicacao,1,3,-2,2,66.7,5000.0,5000.0,4
+212310,Administrador de Redes,1,3,-2,2,66.7,4622.81,4622.81,4
+214365,Tecnologo em Eletronica,1,2,-1,2,100.0,1621.0,1621.0,3
+223445,Farmaceutico Hospitalar e Clinico,5,5,0,2,40.0,3500.0,3050.91,10
+223510,Enfermeiro Auditor,3,4,-1,2,50.0,8721.99,8062.14,7
+225125,Médico Clínico,7,6,1,2,33.3,11971.31,8486.87,13
+225140,Médico do Trabalho,2,4,-2,2,50.0,10088.52,10088.52,6
+234410,Professor de Educacao Fisica no Ensino Superior,1,4,-3,2,50.0,1700.0,1700.0,5
+234624,Professor de Lingua Portuguesa,4,2,2,2,100.0,,,6
+239425,Psicopedagogo,3,6,-3,2,33.3,3153.0,3102.0,9
+251530,Psicologo Social,1,5,-4,2,40.0,3990.0,3990.0,6
+261120,Editor,4,3,1,2,66.7,2538.0,2517.13,7
+261135,Reporter (Exclusive Radio e Televisao),2,3,-1,2,66.7,3291.8,3291.8,5
+261805,Fotografo,4,3,1,2,66.7,1873.18,1873.18,7
+301110,Tecnico de Laboratorio de Analises Fisico-Quimicas (Materiais de Construcao),9,9,0,2,22.2,2074.12,2030.41,18
+313120,Tecnico de Manutencao Eletrica,5,9,-4,2,22.2,2800.0,2564.2,14
+313415,"Encarregado de Manutencao de Instrumentos de Controle, Medicao e Similares",6,8,-2,2,25.0,1980.75,1946.42,14
+314110,Tecnico Mecanico,4,4,0,2,50.0,2119.45,2102.57,8
+318805,Projetista de Moveis,5,7,-2,2,28.6,1621.0,1732.6,12
+318810,Modelista de Roupas,1,7,-6,2,28.6,1621.0,1621.0,8
+321105,Tecnico Agricola,11,9,2,2,22.2,1800.0,1962.45,20
+321110,Tecnico Agropecuario,40,21,19,2,9.5,3212.0,3187.77,61
+322230,Auxiliar de Enfermagem,9,4,5,2,50.0,2375.0,2185.0,13
+331205,Professor de Nivel Medio no Ensino Fundamental,7,13,-6,2,15.4,1700.0,1824.5,20
+342535,Operador de Atendimento Aeroviario,9,8,1,2,25.0,1829.56,1728.57,17
+351715,Assistente Comercial de Seguros,3,3,0,2,66.7,2641.01,2665.16,6
+354505,Corretor de Seguros,1,4,-3,2,50.0,1621.0,1621.0,5
+354605,Corretor de Imoveis,8,7,1,2,28.6,2500.0,3939.75,15
+354810,Operador de Turismo,6,2,4,2,100.0,1621.0,1747.33,8
+371105,Auxiliar de Biblioteca,3,2,1,2,100.0,1621.0,1477.76,5
+377110,Atleta Profissional de Futebol,70,69,1,2,2.9,1650.0,2908.4,139
+410225,Supervisor de Credito e Cobranca,2,5,-3,2,40.0,1910.5,1910.5,7
+410235,Supervisor de Tesouraria,3,10,-7,2,20.0,3630.0,3410.0,13
+412105,Datilografo,15,2,13,2,100.0,1621.0,1710.56,17
+413105,Analista de Folha de Pagamento,12,8,4,2,25.0,2419.33,2510.06,20
+415215,Entregador de Publicacoes,6,6,0,2,33.3,1621.0,1642.5,12
+424105,Entrevistador Censitario e de Pesquisas Amostrais,9,2,7,2,100.0,2000.0,2000.0,11
+510115,Supervisor de Andar,0,2,-2,2,100.0,,,2
+514215,Varredor de Rua,7,24,-17,2,8.3,1621.0,1621.0,31
+514305,Limpador de Vidros (Desativado em 2010),3,2,1,2,100.0,1600.0,1607.0,5
+515105,Agente Comunitario de Saude,23,26,-3,2,7.7,3242.0,3188.58,49
+515205,Auxiliar de Banco de Sangue,14,5,9,2,40.0,1621.0,1650.45,19
+515325,Socioeducador,11,16,-5,2,12.5,2623.6,2613.85,27
+516310,Lavador de Roupas  a Maquina,7,5,2,2,40.0,1621.0,1656.57,12
+519330,,2,2,0,2,100.0,1621.0,1621.0,4
+520105,Supervisor de Vendas de Servicos,12,13,-1,2,15.4,2125.0,2777.83,25
+523110,Instalador de Som e Acessorios de Veiculos,6,6,0,2,33.3,1621.0,1600.58,12
+632015,Viveirista Florestal,4,4,0,2,50.0,1518.0,1518.0,8
+642010,Operador de Maquinas Florestais Estaticas,8,5,3,2,40.0,2790.16,2944.5,13
+711230,Operador de Maquina Perfuratriz,4,4,0,2,50.0,2327.76,2327.76,8
+712205,Cortador de Pedras,12,10,2,2,20.0,1621.0,1707.04,22
+712220,Polidor de Pedras,15,9,6,2,22.2,1635.35,1764.58,24
+715305,Armador de Estrutura de Concreto,11,11,0,2,18.2,2470.0,2480.18,22
+715545,Montador de Andaimes (Edificacoes),0,9,-9,2,22.2,,,9
+721215,Operador de Maquinas-Ferramenta Convencionais,3,2,1,2,100.0,1621.0,1621.0,5
+725105,"Montador de Maquinas, Motores e Acessorios (Montagem em Serie)",5,8,-3,2,25.0,1800.0,2092.0,13
+741110,Montador de Instrumentos de Optica,3,4,-1,2,50.0,1621.0,1621.0,7
+765110,Cortador de Tapecaria,1,3,-2,2,66.7,1601.49,1601.49,4
+766315,Operador de Acabamento (Industria Grafica),5,4,1,2,50.0,1621.0,1856.8,9
+782130,Operador de Ponte Rolante,4,5,-1,2,40.0,1964.27,1964.27,9
+783220,Estivador,1,4,-3,2,50.0,1764.0,1764.0,5
+811770,Moldador de Plastico por Injecao,0,2,-2,2,100.0,,,2
+818110,Auxiliar de Laboratorio de Analises Fisico-Quimicas,5,2,3,2,100.0,1621.0,1636.27,7
+832135,Operador de Rebobinadeira na Fabricacao de Papel e Papelao,4,3,1,2,66.7,1710.5,1710.5,7
+841468,Preparador de Racoes,4,5,-1,2,40.0,1621.0,1715.75,9
+841745,Xaropeiro,3,6,-3,2,33.3,1621.0,1621.0,9
+861205,Operador de Subestacao,19,11,8,2,18.2,1995.08,2089.36,30
+862510,Operador de Refrigeracao com Amonia,4,4,0,2,50.0,2165.0,2142.75,8
+914415,Mecanico de Manutencao de Motocicletas,11,8,3,2,25.0,1621.0,2059.55,19
+919205,"Mecanico de Manutencao de Maquinas Cortadoras de Grama, Rocadeiras, Motosserras e Similares",2,2,0,2,100.0,1569.5,1569.5,4
+919310,Mecanico de Manutencao de Bicicletas e Veiculos Similares,5,7,-2,2,28.6,1621.0,1600.4,12
+992210,Encarregado de Equipe de Conservacao de Vias Permanentes (Exceto Trilhos),7,7,0,2,28.6,2340.5,2446.21,14
+121005,Diretor de Planejamento Estrategico,1,3,-2,1,33.3,1518.0,1518.0,4
+123305,Diretor Comercial,5,3,2,1,33.3,2110.0,4606.0,8
+131210,Gerente de Servicos de Saude,6,6,0,1,16.7,2750.0,3519.58,12
+141105,Gerente de Producao e Operacoes  Aquicolas,0,1,-1,1,100.0,,,1
+141115,Gerente de Producao e Operacoes Agropecuarias,8,10,-2,1,10.0,3150.0,5088.0,18
+141420,Gerente de Operacoes de Servicos de Assistencia Tecnica,7,13,-6,1,7.7,2000.0,3466.35,20
+141505,Gerente de Hotel,7,7,0,1,14.3,2000.0,2635.9,14
+141705,Gerente de Produtos Bancarios,1,1,0,1,100.0,4756.08,4756.08,2
+142140,,0,1,-1,1,100.0,,,1
+142360,,1,3,-2,1,33.3,3000.0,3000.0,4
+142405,Gerente de Compras,1,3,-2,1,33.3,3000.0,3000.0,4
+142415,Gerente de Almoxarifado,4,5,-1,1,20.0,2850.0,2957.38,9
+142705,Gerente de Projetos e Servicos de Manutencao,4,4,0,1,25.0,4529.51,5554.78,8
+201110,Biotecnologista,0,1,-1,1,100.0,,,1
+203405,Pesquisador em Ciencias Agronomicas,11,1,10,1,100.0,13844.56,13844.56,12
+212205,Engenheiro de Aplicativos em Computacao,2,1,1,1,100.0,4200.0,4200.0,3
+212315,Administrador de Sistemas Operacionais,2,3,-1,1,33.3,2060.5,2060.5,5
+214215,Engenheiro Civil (Edificacoes),3,3,0,1,33.3,3675.0,3930.28,6
+214305,Engenheiro Eletricista,29,10,19,1,10.0,1621.0,3265.62,39
+214320,Engenheiro Eletricista de Projetos,1,2,-1,1,50.0,1500.0,1500.0,3
+222105,Engenheiro Agricola,1,2,-1,1,50.0,1621.0,1621.0,3
+223208,Cirurgiao Dentista - Clinico Geral,11,9,2,1,11.1,4863.0,4822.58,20
+223305,Medico Veterinario,7,4,3,1,25.0,1621.0,2414.0,11
+223415,Farmaceutico Analista Clinico,6,2,4,1,50.0,3500.0,3203.98,8
+223535,Enfermeiro Nefrologista,1,1,0,1,100.0,4000.0,4000.0,2
+224105,Avaliador Fisico,7,3,4,1,33.3,1621.0,1672.14,10
+224115,Preparador de Atleta,4,2,2,1,50.0,2000.0,1950.0,6
+224125,Tecnico de Desporto Individual e Coletivo (Exceto Futebol),4,2,2,1,50.0,4000.0,4000.0,6
+225127,Médico Pneumologista,1,1,0,1,100.0,11971.31,11971.31,2
+231325,Professor de Historia do Ensino Fundamental,2,2,0,1,50.0,,,4
+232110,Professor de Biologia no Ensino Medio,1,1,0,1,100.0,,,2
+232120,Professor de Educacao Fisica no Ensino Medio,1,2,-1,1,50.0,3500.0,3500.0,3
+232125,Professor de Filosofia no Ensino Medio,2,1,1,1,100.0,1680.0,1680.0,3
+232130,Professor de Fisica no Ensino Medio,1,1,0,1,100.0,,,2
+232135,Professor de Geografia no Ensino Medio,5,4,1,1,25.0,,,9
+232155,Professor de Matematica no Ensino Medio,5,3,2,1,33.3,,,8
+232165,Professor de Quimica no Ensino Medio,4,2,2,1,50.0,,,6
+239430,Supervisor de Ensino,5,4,1,1,25.0,2448.0,2173.72,9
+241010,Advogado de Empresa,4,3,1,1,33.3,3362.91,3399.6,7
+251105,Antropologo,2,2,0,1,50.0,4500.0,4500.0,4
+251210,Economista Agroindustrial,2,1,1,1,100.0,8805.98,8805.98,3
+251520,Psicologo Hospitalar,1,1,0,1,100.0,3000.0,3000.0,2
+251540,Psicologo do Trabalho,4,1,3,1,100.0,4636.69,4916.11,5
+252310,Secretario  Bilingue,3,4,-1,1,25.0,1621.0,1747.33,7
+252540,Analista de Produtos Bancarios,3,2,1,1,50.0,3469.9,3462.73,5
+253120,Analista de Negocios,1,2,-1,1,50.0,3300.0,3300.0,3
+253125,Analista de Pesquisa de Mercado,3,2,1,1,50.0,1800.0,2200.0,5
+253305,"Corretor de Valores, Ativos Financeiros, Mercadorias e Derivativos",1,1,0,1,100.0,1621.0,1621.0,2
+261115,Diretor de Redacao,1,1,0,1,100.0,4000.0,4000.0,2
+261420,Tradutor,1,2,-1,1,50.0,2092.0,2092.0,3
+261605,Editor de Jornal,0,1,-1,1,100.0,,,1
+261730,Reporter de Radio e Televisao,0,1,-1,1,100.0,,,1
+262115,Produtor de Radio,0,1,-1,1,100.0,,,1
+262215,Diretor de Programas de Televisao,0,1,-1,1,100.0,,,1
+300305,Tecnico em Eletromecanica,4,3,1,1,33.3,2800.0,2686.75,7
+311520,Tecnico em Tratamento de Efluentes,1,1,0,1,100.0,6825.0,6825.0,2
+311715,Preparador de Tintas,5,5,0,1,20.0,1621.0,1621.0,10
+313315,Tecnico de Telecomunicacoes (Telefonia),13,3,10,1,33.3,1850.0,1902.55,16
+313410,Tecnico em Instrumentacao,1,3,-2,1,33.3,4800.0,4800.0,4
+317105,Programador de Internet,2,1,1,1,100.0,1795.65,1795.65,3
+322225,Instrumentador Cirurgico,3,3,0,1,33.3,1903.36,2081.82,6
+322420,Auxiliar de Protese Dentaria,4,3,1,1,33.3,1621.0,1621.0,7
+322430,Auxiliar em Saúde Bucal da Estratégia de Saúde da Família,1,1,0,1,100.0,1621.0,1621.0,2
+322715,,4,1,3,1,100.0,1621.0,1983.19,5
+331105,Professor de Nivel Medio na Educacao Infantil,9,9,0,1,11.1,1621.0,1735.81,18
+332205,Professor Pratico no Ensino Profissionalizante,3,2,1,1,50.0,3853.0,3853.0,5
+342115,Controlador de Servicos de Maquinas e Veiculos,5,3,2,1,33.3,2170.0,2192.35,8
+342305,Chefe de Servico de Transporte Rodoviario (Passageiros e Cargas),3,1,2,1,100.0,2500.0,3000.0,4
+342510,Despachante Operacional de Voo,4,2,2,1,50.0,1621.0,1621.0,6
+342540,Supervisor da Administracao de Aeroportos,0,1,-1,1,100.0,,,1
+351305,Tecnico em Administracao,1,3,-2,1,33.3,,,4
+351315,Agente de Recrutamento e Selecao,0,1,-1,1,100.0,,,1
+351410,Escrivao Judicial,12,16,-4,1,6.2,3464.47,3464.47,28
+351415,Escrivao Extra - Judicial,9,9,0,1,11.1,4729.04,5033.33,18
+351725,Inspetor de Risco,7,7,0,1,14.3,1621.0,1646.14,14
+352210,Agente de Saude Publica,0,1,-1,1,100.0,,,1
+353235,Chefe de Servicos Bancarios,0,1,-1,1,100.0,,,1
+354415,Avaliador de Bens Moveis,3,6,-3,1,16.7,1710.5,1943.0,9
+354820,Organizador de Evento,5,8,-3,1,12.5,1800.0,2204.2,13
+373105,Operador de Audio de Continuidade (Radio),5,2,3,1,50.0,2500.0,2224.2,7
+373135,Operador de Controle Mestre,6,1,5,1,100.0,1800.0,1740.33,7
+373220,Supervisor Tecnico Operacional de Sistemas de Televisao e Produtoras de Video,0,1,-1,1,100.0,,,1
+374125,Tecnico em Sonorizacao,5,3,2,1,33.3,1621.0,1696.8,8
+375115,Visual Merchandiser,3,3,0,1,33.3,4878.79,4878.79,6
+375120,Decorador de Eventos,6,2,4,1,50.0,1621.0,1633.67,8
+391125,Tecnico de Planejamento de Producao,3,3,0,1,33.3,2110.0,2473.33,6
+391130,Tecnico de Planejamento e Programacao da Manutencao,1,3,-2,1,33.3,2165.0,2165.0,4
+410220,Supervisor de Controle Patrimonial,0,2,-2,1,50.0,,,2
+410230,Supervisor de Orcamento,1,6,-5,1,16.7,6696.57,6696.57,7
+411015,Atendente de Judiciario,1,1,0,1,100.0,1621.0,1621.0,2
+411040,Auxiliar de Seguros,2,3,-1,1,33.3,1621.0,1621.0,5
+411055,Captador De Recursos,0,2,-2,1,50.0,,,2
+414115,Balanceiro,6,6,0,1,16.7,1621.0,1697.16,12
+415105,Arquivista de Documentos,1,2,-1,1,50.0,1580.0,1580.0,3
+420110,Supervisor de Cobranca,4,7,-3,1,14.3,1518.0,1518.0,11
+420135,Supervisor de Telemarketing e Atendimento,7,9,-2,1,11.1,1622.0,1745.78,16
+422130,Concierge,0,3,-3,1,33.3,,,3
+422305,Operador de Telemarketing Ativo,13,7,6,1,14.3,1601.49,1571.96,20
+422335,Monitor De Teleatendimento,2,4,-2,1,25.0,1621.0,1621.0,6
+423105,Despachante Documentalista,9,4,5,1,25.0,1621.0,1702.89,13
+423110,Despachante de Trânsito,2,1,1,1,100.0,1609.0,1609.0,3
+424115,Entrevistador de Pesquisas de Mercado,0,1,-1,1,100.0,,,1
+510105,Supervisor de Transportes,5,5,0,1,20.0,3000.0,2825.0,10
+510135,Maître,4,4,0,1,25.0,2000.0,2050.0,8
+510205,Supervisor de Lavanderia,1,1,0,1,100.0,2216.0,2216.0,2
+510305,Supervisor de Bombeiros,0,1,-1,1,100.0,,,1
+511210,Despachante de Transportes Coletivos (Exceto Trem),2,1,1,1,100.0,2092.4,2092.4,3
+512110,Empregado Domestico  Arrumador,1,1,0,1,100.0,1621.0,1621.0,2
+513210,Cozinheiro do Servico Domestico,1,1,0,1,100.0,1621.0,1621.0,2
+513220,Cozinheiro de Hospital,3,4,-1,1,25.0,1621.0,1697.33,7
+514230,Coletor de Resíduos Sólidos de Serviços de Saúde,2,1,1,1,100.0,1681.27,1681.27,3
+514315,Limpador de Fachadas,1,1,0,1,100.0,1800.0,1800.0,2
+514330,Limpador de Piscinas,12,4,8,1,25.0,1621.0,1621.0,16
+515305,Educador Social,24,5,19,1,20.0,2238.5,2284.15,29
+516110,Cabeleireiro,8,7,1,1,14.3,1621.0,2013.12,15
+516210,Cuidador de Idosos,4,5,-1,1,20.0,1991.38,2101.04,9
+516320,"Limpador a Seco, À Maquina",3,1,2,1,100.0,1621.0,1621.0,4
+516325,Passador de Roupas em Geral,0,5,-5,1,20.0,,,5
+516340,Atendente de Lavanderia,5,3,2,1,33.3,1682.0,1682.0,8
+516415,"Passador de Roupas, À Mao",2,3,-1,1,33.3,1621.0,1621.0,5
+517120,Brigadista Florestal,8,2,6,1,50.0,1636.02,1636.02,10
+517405,Porteiro (Hotel),2,4,-2,1,25.0,1661.63,1661.63,6
+519215,Operador de Prensa de Material Reciclável,2,1,1,1,100.0,1611.24,1611.24,3
+523115,Chaveiro,5,3,2,1,33.3,1621.0,1696.8,8
+620110,Supervisor de Exploracao Agropecuaria,2,1,1,1,100.0,2210.5,2210.5,3
+622410,Trabalhador no Cultivo de Flores em Vaso,1,1,0,1,100.0,1601.49,1601.49,2
+623005,Adestrador de Animais,2,2,0,1,50.0,1621.0,1621.0,4
+632115,Identificador Florestal,1,1,0,1,100.0,1713.84,1713.84,2
+642015,Operador de Trator Florestal,1,2,-1,1,50.0,,,3
+710120,Supervisor de Producao na Mineracao,1,1,0,1,100.0,2000.0,2000.0,2
+715510,Carpinteiro (Esquadrias),1,3,-2,1,33.3,2431.5,2431.5,4
+715610,Eletricista de Instalacoes (Edificios),12,16,-4,1,6.2,2614.98,2502.28,28
+716405,Gesseiro,11,8,3,1,12.5,1621.0,1786.17,19
+720110,Mestre de Caldeiraria,1,1,0,1,100.0,3041.0,3041.0,2
+720155,Mestre Serralheiro,0,1,-1,1,100.0,,,1
+721425,Operador de Retificadora com Comando Numerico,1,1,0,1,100.0,3500.0,3500.0,2
+722305,"Macheiro, a Mao",1,1,0,1,100.0,1621.0,1621.0,2
+723310,Pintor a Pincel e Rolo (Exceto Obras e Estruturas Metalicas),4,7,-3,1,14.3,2200.0,2450.0,11
+723315,Pintor de Estruturas Metalicas,5,3,2,1,33.3,2487.96,2620.93,8
+723320,Pintor de Veiculos (Fabricacao),10,8,2,1,12.5,1621.0,1893.7,18
+723330,"Pintor, a  Pistola (Exceto Obras e Estruturas Metalicas)",6,4,2,1,25.0,2614.97,2297.71,10
+724325,Soldador Eletrico,0,2,-2,1,50.0,,,2
+724410,Caldeireiro (Chapas de Ferro e Aco),7,8,-1,1,12.5,3000.0,2980.45,15
+724435,Funileiro Industrial,2,1,1,1,100.0,1800.0,1800.0,3
+724510,Operador de Maquina de Dobrar Chapas,3,3,0,1,33.3,2120.38,2080.25,6
+725310,Montador de Maquinas Agricolas,0,1,-1,1,100.0,,,1
+731150,Montador de Equipamentos Eletronicos,7,2,5,1,50.0,1601.49,1597.92,9
+731165,"Bobinador Eletricista, À Mao",1,1,0,1,100.0,3000.0,3000.0,2
+731170,"Bobinador Eletricista, À Maquina",0,1,-1,1,100.0,,,1
+731310,Instalador-Reparador de Equipamentos de Energia em Telefonia,2,2,0,1,50.0,1631.0,1631.0,4
+731315,Instalador-Reparador de Equipamentos de Transmissao em Telefonia,1,3,-2,1,33.3,2492.43,2492.43,4
+732105,"Eletricista de Manutencao de Linhas Eletricas, Telefonicas e de Comunicacao de Dados",1,16,-15,1,6.2,3847.0,3847.0,17
+750105,Supervisor de Joalheria,1,2,-1,1,50.0,1518.0,1518.0,3
+761410,Estampador de Tecido,6,2,4,1,50.0,1621.0,1617.0,8
+763010,Costureira de Pecas Sob Encomenda,11,6,5,1,16.7,1621.0,1759.09,17
+763110,Cortador de Roupas,0,3,-3,1,33.3,,,3
+763125,Ajudante de Confecção,5,2,3,1,50.0,1621.0,1692.6,7
+763320,Operador de Maquina de Costura de Acabamento,1,1,0,1,100.0,1518.0,1518.0,2
+765235,Estofador de Moveis,0,1,-1,1,100.0,,,1
+782205,Guincheiro (Construcao Civil),2,11,-9,1,9.1,2514.73,2514.73,13
+784125,Operador de Prensa de Enfardamento,1,1,0,1,100.0,2257.0,2257.0,2
+810305,Mestre de Producao Farmaceutica,0,1,-1,1,100.0,,,1
+811110,Operador de Maquina Misturadeira (Tratamentos Quimicos e Afins),0,1,-1,1,100.0,,,1
+811715,Confeccionador de Pneumaticos,0,1,-1,1,100.0,,,1
+841460,Operador de Preparacao de Graos Vegetais (Oleos e Gorduras),1,4,-3,1,25.0,3722.5,3722.5,5
+841710,Filtrador de Cerveja,3,3,0,1,33.3,2000.0,1970.0,6
+841810,"Operador de Maquinas de Fabricacao de Doces, Salgados e Massas Alimenticias",3,4,-1,1,25.0,1687.62,1762.87,7
+848425,Classificador de Grãos,5,2,3,1,50.0,2908.0,3186.4,7
+860115,"Supervisor de Operacao Eletrica (Geracao, Transmissao e Distribuicao de Energia Eletrica)",7,30,-23,1,3.3,8538.3,8356.42,37
+861105,Operador de Central Hidreletrica,66,80,-14,1,1.2,1995.08,1928.92,146
+862310,"Operador de Forno de Incineracao no Tratamento de Agua, Efluentes e Residuos Industriais",3,8,-5,1,12.5,2500.0,2207.0,11
+910110,"Supervisor de Manutencao de Aparelhos Termicos, de Climatizacao e de Refrigeracao",0,1,-1,1,100.0,,,1
+910115,"Supervisor de Manutencao de Bombas, Motores, Compressores e Equipamentos de Transmissao",2,2,0,1,50.0,18008.43,18008.43,4
+910130,Supervisor de Manutencao de Maquinas Operatrizes e de Usinagem,2,5,-3,1,20.0,9100.0,9100.0,7
+914105,"Mecanico de Manutencao de Aeronaves, em Geral",6,3,3,1,33.3,3732.16,3751.43,9
+914305,Mecanico de Manutencao de Veiculos Ferroviarios,2,3,-1,1,33.3,2365.99,2365.99,5
+914410,Mecanico de Manutencao de Empilhadeiras e Outros Veiculos de Cargas Leves,0,1,-1,1,100.0,,,1
+915105,Tecnico em Manutencao de Instrumentos de Medicao e Precisao,2,1,1,1,100.0,3096.0,3096.0,3
+915305,Tecnico em Manutencao de Equipamentos e Instrumentos Medico-Hospitalares,6,3,3,1,33.3,1909.76,1995.21,9
+919315,Montador de Bicicletas,2,3,-1,1,33.3,1621.0,1621.0,5
+951105,Eletricista de Manutencao Eletroeletronica,23,33,-10,1,3.0,2855.52,3208.29,56
+951310,Mantenedor de Sistemas Eletroeletronicos de Seguranca,1,8,-7,1,12.5,2174.27,2174.27,9
+953115,"Eletricista de Instalacoes (Veiculos Automotores e Maquinas Operatrizes, Exceto Aeronaves e Embarcacoes)",7,4,3,1,25.0,2752.0,2784.29,11
+954120,Mecanico de Manutencao de Instalacoes Mecanicas de Edificios,2,2,0,1,50.0,2150.0,2150.0,4
+991315,Pintor de Veiculos (Reparacao),3,2,1,1,50.0,2205.84,2033.61,5
+992205,Encarregado Geral de Operacoes de Conservacao de Vias Permanentes (Exceto Trilhos),10,11,-1,1,9.1,1621.0,2078.78,21
+111220,Secretario - Executivo,5,5,0,0,0.0,1621.0,1696.8,10
+111405,Dirigente do Servico Publico Federal,20,1,19,0,0.0,3682.2,3682.2,21
+111415,Dirigente do Servico Publico Municipal,0,1,-1,0,0.0,,,1
+111510,Analista de Planejamento e Orçamento - Apo,1,2,-1,0,0.0,2600.0,2600.0,3
+114405,Dirigente e Administrador de Organizacao da Sociedade Civil sem Fins Lucrativos,1,1,0,0,0.0,11000.0,11000.0,2
+121010,Diretor Geral de Empresa e Organizacoes (Exceto de Interesse Publico),3,5,-2,0,0.0,5000.0,5900.0,8
+122205,"Diretor de Producao e Operacoes da Industria de Transformacao, Extracao Mineral e Utilidades",0,1,-1,0,0.0,,,1
+122520,Turismologo,1,0,1,0,,2000.0,2000.0,1
+122705,Diretor Comercial em Operacoes de Intermediacao Financeira,1,0,1,0,,2000.0,2000.0,1
+123105,Diretor Administrativo,3,5,-2,0,0.0,4500.0,4600.0,8
+123110,Diretor Administrativo e Financeiro,1,2,-1,0,0.0,5000.0,5000.0,3
+123115,Diretor Financeiro,1,2,-1,0,0.0,3000.0,3000.0,3
+123210,Diretor de Relacoes de Trabalho,1,0,1,0,,25821.66,25821.66,1
+123310,Diretor de Marketing,1,1,0,0,0.0,2000.0,2000.0,2
+131110,Diretor de Servicos Sociais,3,2,1,0,0.0,5903.09,5903.09,5
+131115,Gerente de Servicos Culturais,0,2,-2,0,0.0,,,2
+131205,Diretor de Servicos de Saude,1,0,1,0,,6976.53,6976.53,1
+131215,Tecnólogo em Gestão Hospitalar,0,1,-1,0,0.0,,,1
+131315,Gerente de Instituicao Educacional da Area Privada,0,2,-2,0,0.0,,,2
+141110,Gerente de Producao e Operacoes  Florestais,0,1,-1,0,0.0,,,1
+141305,Gerente de Producao e Operacoes da Construcao Civil e Obras Publicas,4,3,1,0,0.0,2704.78,2708.75,7
+141405,Comerciante Atacadista,0,3,-3,0,0.0,,,3
+141605,Gerente de Operacoes de Transportes,9,11,-2,0,0.0,3000.0,4544.98,20
+141710,Gerente de Agencia,1,2,-1,0,0.0,8053.21,8053.21,3
+142110,Gerente de Riscos,0,2,-2,0,0.0,,,2
+142325,Relacoes Publicas (A),1,1,0,0,0.0,10261.08,10261.08,2
+142340,Ouvidor,1,1,0,0,0.0,9601.76,9601.76,2
+142345,Profissional de Relacoes Institucionais e Governamentais,0,1,-1,0,0.0,,,1
+142410,Gerente de Suprimentos,0,1,-1,0,0.0,,,1
+142505,Gerente de Rede,1,1,0,0,0.0,3000.0,3000.0,2
+142510,Gerente de Desenvolvimento de Sistemas,0,1,-1,0,0.0,,,1
+142515,Gerente de Producao de Tecnologia da Informacao,0,1,-1,0,0.0,,,1
+142520,Gerente de Projetos de Tecnologia da Informacao,1,2,-1,0,0.0,7754.25,7754.25,3
+142530,Gerente de Suporte Tecnico de Tecnologia da Informacao,1,1,0,0,0.0,5500.0,5500.0,2
+211110,Especialista em Pesquisa Operacional,1,0,1,0,,3000.0,3000.0,1
+211205,Estatistico,1,1,0,0,0.0,2500.0,2500.0,2
+212215,Engenheiros de Sistemas Operacionais em Computacao,1,0,1,0,,3000.0,3000.0,1
+212305,Administrador de Banco de Dados,0,1,-1,0,0.0,,,1
+212415,Analista de Sistemas de Automacao,1,0,1,0,,3000.0,3000.0,1
+213205,Quimico,0,1,-1,0,0.0,,,1
+214125,Arquiteto Urbanista,2,1,1,0,0.0,6036.0,6036.0,3
+214270,Engenheiro Civil (Transportes e Transito),2,0,2,0,,4000.0,4000.0,2
+214315,Engenheiro Eletricista de Manutencao,0,2,-2,0,0.0,,,2
+214505,Engenheiro Quimico,0,1,-1,0,0.0,,,1
+214705,Engenheiro de Minas,1,0,1,0,,1700.0,1700.0,1
+214915,Engenheiro de Seguranca do Trabalho,2,1,1,0,0.0,5386.0,5386.0,3
+222110,Engenheiro Agronomo,6,2,4,0,0.0,7902.99,8298.72,8
+222120,Engenheiro Florestal,0,1,-1,0,0.0,,,1
+223212,Cirurgiao Dentista - Endodontista,0,1,-1,0,0.0,,,1
+223520,Enfermeiro de Centro Cirurgico,1,0,1,0,,9261.91,9261.91,1
+223705,Dietista,0,1,-1,0,0.0,,,1
+223905,Terapeuta Ocupacional,1,3,-2,0,0.0,6541.37,6541.37,4
+224110,Ludomotricista,1,0,1,0,,2534.85,2534.85,1
+224135,Treinador Profissional de Futebol,2,0,2,0,,1621.0,1621.0,2
+225120,Médico Cardiologista,1,0,1,0,,11971.31,11971.31,1
+225151,Médico Anestesiologista,1,0,1,0,,11971.31,11971.31,1
+232140,Professor de Historia no Ensino Medio,1,1,0,0,0.0,,,2
+232145,Professor de Lingua e Literatura Brasileira no Ensino Medio,0,1,-1,0,0.0,,,1
+233110,Professor de Desenho Tecnico,0,1,-1,0,0.0,,,1
+233120,Professor de Tecnicas Comerciais e Secretariais,0,1,-1,0,0.0,,,1
+233215,Professor de Aprendizagem e Treinamento Comercial,0,1,-1,0,0.0,,,1
+234405,Professor de Ciencias Biologicas do Ensino Superior,1,0,1,0,,,,1
+234628,Professor de Literatura Brasileira,0,1,-1,0,0.0,,,1
+234735,Professor de Filosofia do Ensino Superior,2,0,2,0,,,,2
+234905,Professor de Artes do Espetaculo no Ensino Superior,1,0,1,0,,,,1
+239215,Professor de Alunos com Deficiencia Mental,4,0,4,0,,2173.24,2173.24,4
+239440,Neuropsicopedagogo Clinico,0,1,-1,0,0.0,,,1
+241020,Advogado (Direito Publico),1,0,1,0,,2500.0,2500.0,1
+241040,Consultor Juridico,3,4,-1,0,0.0,2500.0,2783.25,7
+241210,Procurador Autarquico,1,0,1,0,,12494.26,12494.26,1
+241225,Procurador do Municipio,1,1,0,0,0.0,7200.0,7200.0,2
+241330,Oficial do Registro de Titulos e Documentos,0,1,-1,0,0.0,,,1
+251205,Economista,2,0,2,0,,4640.44,4640.44,2
+251505,Psicologo Educacional,4,2,2,0,0.0,3211.96,3254.76,6
+251545,Neuropsicologo,3,3,0,0,0.0,954.0,1698.67,6
+251550,Psicanalista,0,5,-5,0,0.0,,,5
+252320,Tecnólogo em Secretariado Escolar,2,1,1,0,0.0,1934.0,1934.0,3
+252605,Gestor em Segurança,1,0,1,0,,15000.0,15000.0,1
+252705,Analista de Pcp (Programacao e Controle da Producao),2,1,1,0,0.0,3505.34,3505.34,3
+252710,Analista de Planejamento de Materiais,0,1,-1,0,0.0,,,1
+252720,Analista de Projetos Logisticos,1,0,1,0,,3546.34,3546.34,1
+253135,Diretor de Contas (Publicidade),0,1,-1,0,0.0,,,1
+253140,Diretor de Arte (Publicidade),2,2,0,0,0.0,3376.58,3376.58,4
+253210,Gerente de Clientes Especiais (Private),1,0,1,0,,7387.58,7387.58,1
+253225,Operador de Negocios,1,0,1,0,,1800.0,1800.0,1
+253410,Influenciador Digital,1,2,-1,0,0.0,3000.0,3000.0,3
+254410,Fiscal de Tributos Municipal,1,0,1,0,,1621.0,1621.0,1
+261205,Bibliotecario,0,1,-1,0,0.0,,,1
+261210,Documentalista,0,1,-1,0,0.0,,,1
+261215,Analista de Informacoes (Pesquisador de Informacoes de Rede),2,3,-1,0,0.0,4729.04,4729.04,5
+262105,Produtor Cultural,2,1,1,0,0.0,1518.0,1518.0,3
+262405,Artista (Artes Visuais),1,0,1,0,,1793.5,1793.5,1
+262420,Desenhista Industrial de Produto (Designer de Produto),1,0,1,0,,2014.89,2014.89,1
+262610,Musico Arranjador,0,1,-1,0,0.0,,,1
+262615,Musico Regente,71,0,71,0,,3000.0,3000.0,71
+262705,Musico Interprete Cantor,4,4,0,0,0.0,3000.0,3000.0,8
+262710,Musico Interprete Instrumentista,3,3,0,0,0.0,2400.0,2400.0,6
+262805,Assistente de Coreografia,2,0,2,0,,850.0,850.0,2
+263105,Ministro de Culto Religioso,0,1,-1,0,0.0,,,1
+300105,Tecnico em Mecatronica - Automacao da Manufatura,0,4,-4,0,0.0,,,4
+311105,Tecnico Quimico,1,0,1,0,,3000.0,3000.0,1
+311115,Tecnico em Curtimento,1,0,1,0,,1700.0,1700.0,1
+311505,Tecnico de Controle de Meio Ambiente,7,5,2,0,0.0,1621.0,1621.0,12
+311515,"Tecnico de Utilidade (Producao e Distribuicao de Vapor, Gases, Oleos, Combustiveis, Energia)",0,2,-2,0,0.0,,,2
+312210,Tecnico de Saneamento,0,1,-1,0,0.0,,,1
+312305,Tecnico em Agrimensura,2,2,0,0,0.0,5500.0,5500.0,4
+312310,Tecnico em Geodesia e Cartografia,1,0,1,0,,3500.0,3500.0,1
+313110,Eletrotecnico (Producao de Energia),0,2,-2,0,0.0,,,2
+313115,"Eletrotenico na Fabricacao, Montagem e Instalacao de Maquinas e Equipamentos",3,4,-1,0,0.0,2500.0,4333.33,7
+313130,Tecnico Eletricista,5,4,1,0,0.0,3199.4,2684.49,9
+313210,Tecnico de Manutencao Eletronica (Circuitos de Maquinas com Comando Numerico),2,0,2,0,,2888.51,2888.51,2
+313320,Tecnico de Transmissao (Telecomunicacoes),0,1,-1,0,0.0,,,1
+314105,Tecnico em Mecanica de Precisao,0,2,-2,0,0.0,,,2
+314120,Tecnico Mecanico (Maquinas),1,5,-4,0,0.0,1621.0,1621.0,6
+314305,Tecnico em Automobilistica,2,1,1,0,0.0,1675.5,1675.5,3
+314310,Tecnico Mecanico (Aeronaves),0,1,-1,0,0.0,,,1
+314805,Inspetor De Equipamentos,1,1,0,0,0.0,1721.0,1721.0,2
+317120,Programador de Multimidia,1,1,0,0,0.0,2560.03,2560.03,2
+318005,Desenhista Tecnico,1,0,1,0,,4773.38,4773.38,1
+318105,Desenhista Tecnico (Arquitetura),2,0,2,0,,3190.16,3190.16,2
+318705,Desenhista Projetista de Eletricidade,0,1,-1,0,0.0,,,1
+321210,Tecnico Florestal,0,1,-1,0,0.0,,,1
+322140,,2,0,2,0,,,,2
+322215,Tecnico de Enfermagem do Trabalho,0,2,-2,0,0.0,,,2
+322305,Tecnico em Optica e Optometria,1,1,0,0,0.0,1601.49,1601.49,2
+322410,Protetico Dentario,0,1,-1,0,0.0,,,1
+322425,Técnico em Saúde Bucal da Estratégia de Saúde da Família,0,2,-2,0,0.0,,,2
+322505,Tecnico de Ortopedia,0,1,-1,0,0.0,,,1
+325015,Perfumista,0,1,-1,0,0.0,,,1
+341110,Piloto Comercial de Helicoptero (Exceto Linhas Aereas),0,1,-1,0,0.0,,,1
+341120,Piloto Agricola,1,0,1,0,,3800.0,3800.0,1
+341230,Piloto Fluvial,45,7,38,0,0.0,1667.16,1693.19,52
+341240,Tecnico em Manobras em Equipamentos de Conves,0,3,-3,0,0.0,,,3
+342110,Operador de Transporte Multimodal,1,0,1,0,,2200.0,2200.0,1
+342310,Inspetor de Servicos de Transportes Rodoviarios (Passageiros e Cargas),1,0,1,0,,1621.0,1621.0,1
+342315,Supervisor de Carga e Descarga,5,14,-9,0,0.0,1850.0,2303.13,19
+342610,Supervisor de Operacoes Portuarias,0,1,-1,0,0.0,,,1
+351105,Tecnico de Contabilidade,1,2,-1,0,0.0,3040.0,3040.0,3
+351425,Oficial de Justica,1,1,0,0,0.0,1621.0,1621.0,2
+351510,Taquigrafo,0,4,-4,0,0.0,,,4
+351610,Técnico em Higiene Ocupacional,1,0,1,0,,,,1
+352205,Agente de Defesa Ambiental,2,0,2,0,,3364.18,3364.18,2
+352310,Agente Fiscal de Qualidade,1,0,1,0,,1000.0,1000.0,1
+353225,Tecnico de Operacoes e Servicos Bancarios - Renda Fixa e Variavel,6,0,6,0,,,,6
+354150,Propagandista de Produtos Famaceuticos,1,0,1,0,,2000.0,2000.0,1
+354305,Analista de Exportacao e Importacao,0,1,-1,0,0.0,,,1
+354405,Leiloeiro,0,1,-1,0,0.0,,,1
+354705,Representante Comercial Autonomo,0,1,-1,0,0.0,,,1
+354805,Tecnico em Turismo,1,0,1,0,,4000.0,4000.0,1
+373130,Tecnico de Sistemas Audiovisuais,1,3,-2,0,0.0,2822.5,2822.5,4
+373140,Coordenador de Programacao,1,0,1,0,,3000.0,3000.0,1
+373145,Assistente de Operacoes Audiovisuais,1,1,0,0,0.0,1621.0,1621.0,2
+373205,Tecnico em Operacao de Equipamentos de Producao para Televisao  e Produtoras de Video,0,1,-1,0,0.0,,,1
+374115,Tecnico em Masterizacao de Audio,2,4,-2,0,0.0,4298.03,4298.03,6
+374215,Maquinista de Teatro e Espetaculos,1,0,1,0,,2000.0,2000.0,1
+374305,Operador de Projetor Cinematografico,0,1,-1,0,0.0,,,1
+375105,Designer de Interiores,1,0,1,0,,2000.0,2000.0,1
+375110,Designer de Vitrines,0,1,-1,0,0.0,,,1
+391145,Analista De Planejamento De Manutenção,5,1,4,0,0.0,4219.0,4543.84,6
+395105,Tecnico de Apoio em Pesquisa e Desenvolvimento (Exceto Agropecuario e Florestal),0,1,-1,0,0.0,,,1
+395110,Tecnico de Apoio em Pesquisa e Desenvolvimento Agropecuario Florestal,2,0,2,0,,6003.43,6003.43,2
+411035,Auxiliar de Estatistica,3,1,2,0,0.0,1621.0,1904.97,4
+415115,Codificador de Dados,1,2,-1,0,0.0,3464.47,3464.47,3
+421210,Recebedor de Apostas (Turfe),2,2,0,0,0.0,1610.5,1610.5,4
+421315,Localizador (Cobrador),1,0,1,0,,1621.0,1621.0,1
+422115,Recepcionista de Seguro Saude,1,1,0,0,0.0,1560.0,1560.0,2
+422210,Teleoperador,0,1,-1,0,0.0,,,1
+422220,Operador de Radio-Chamada,1,3,-2,0,0.0,1992.38,1992.38,4
+511205,Fiscal de Transportes Coletivos (Exceto Trem),5,1,4,0,0.0,1621.0,1615.97,6
+511215,Cobrador de Transportes Coletivos (Exceto Trem),2,1,1,0,0.0,1900.0,1900.0,3
+511405,Guia de Turismo,1,0,1,0,,2000.0,2000.0,1
+512115,Empregado Domestico  Faxineiro,1,4,-3,0,0.0,1621.0,1621.0,5
+513115,Governanta de Hotelaria,3,1,2,0,0.0,1800.0,2033.33,4
+513215,Cozinheiro Industrial,1,0,1,0,,1621.0,1621.0,1
+513310,Camareira de Televisao,3,1,2,0,0.0,1621.0,1586.67,4
+513410,Garcom (Servicos de Vinhos),2,0,2,0,,1603.66,1603.66,2
+515140,Agente de Combate as Endemias,5,5,0,0,0.0,3242.0,3242.0,10
+516315,Lavador de Artefatos de Tapecaria,2,1,1,0,0.0,1621.0,1621.0,3
+516610,Sepultador,1,1,0,0,0.0,1621.0,1621.0,2
+517105,Bombeiro de Aerodromo,0,1,-1,0,0.0,,,1
+519105,Ciclista Mensageiro,2,4,-2,0,0.0,2110.0,2110.0,6
+519115,Mototaxista,1,1,0,0,0.0,1601.49,1601.49,2
+519310,Esteticista de Animais Domesticos,1,0,1,0,,1621.0,1621.0,1
+523105,"Instalador de Cortinas e Persianas, Portas Sanfonadas e Boxe",0,2,-2,0,0.0,,,2
+523120,Aplicador De Vinil Autoadesivo,0,2,-2,0,0.0,,,2
+524205,Feirante,1,0,1,0,,1621.0,1621.0,1
+524305,Vendedor Ambulante,0,1,-1,0,0.0,,,1
+612515,Produtor de Especies Frutiferas Trepadeiras,0,1,-1,0,0.0,,,1
+620105,Supervisor de Exploracao Agricola,1,1,0,0,0.0,2000.0,2000.0,2
+622005,Caseiro (Agricultura),12,7,5,0,0.0,1621.0,1922.11,19
+622105,Trabalhador da Cultura de Arroz,2,2,0,0,0.0,1569.5,1569.5,4
+622310,Trabalhador na Olericultura (Legumes),1,0,1,0,,1621.0,1621.0,1
+622405,Trabalhador no Cultivo de Flores e Folhagens de Corte,3,2,1,0,0.0,1621.0,1614.5,5
+622425,Trabalhador no Cultivo de Plantas Ornamentais,3,6,-3,0,0.0,1745.11,1745.11,9
+622730,Trabalhador na Cultura de Soja,9,3,6,0,0.0,2381.66,2361.49,12
+623010,Inseminador,1,0,1,0,,2500.0,2500.0,1
+623015,Trabalhador de Pecuaria Polivalente,1,0,1,0,,1621.0,1621.0,1
+630105,Supervisor da Aquicultura,1,0,1,0,,3300.0,3300.0,1
+630110,Supervisor da Area Florestal,1,1,0,0,0.0,5773.02,5773.02,2
+631105,Pescador Artesanal de Agua Doce,0,1,-1,0,0.0,,,1
+631420,Redeiro (Pesca),0,1,-1,0,0.0,,,1
+632340,Trabalhador da Exploracao de Malva (Paina),0,1,-1,0,0.0,,,1
+643010,Trabalhador na Operacao de Sistema de Irrigacao por Aspersao (Pivo Central),0,1,-1,0,0.0,,,1
+710210,Mestre de Linhas (Ferrovias),0,1,-1,0,0.0,,,1
+710215,Inspetor de Terraplenagem,0,1,-1,0,0.0,,,1
+710220,Supervisor de Usina de Concreto,0,1,-1,0,0.0,,,1
+711215,Operador de Maquina Cortadora (Minas e Pedreiras),1,0,1,0,,4000.0,4000.0,1
+711235,Operador de Motoniveladora (Extracao de Minerais Solidos),0,1,-1,0,0.0,,,1
+711325,Plataformista (Petroleo),3,2,1,0,0.0,2037.81,2037.81,5
+712120,Operador de Britador de Mandibulas,1,2,-1,0,0.0,1621.0,1621.0,3
+715120,Operador de Maquina de Abrir Valas,1,1,0,0,0.0,3000.0,3000.0,2
+715145,Operador de Trator de Lamina,2,1,1,0,0.0,2747.4,2747.4,3
+715415,Operador de Central de Concreto,0,2,-2,0,0.0,,,2
+715420,Operador De Usina De Asfalto,2,1,1,0,0.0,5750.0,5750.0,3
+716105,Acabador de Superficies de Concreto,2,1,1,0,0.0,2260.5,2260.5,3
+716510,Ladrilheiro,1,0,1,0,,1593.9,1593.9,1
+716540,Rejuntador de Revestimentos,0,1,-1,0,0.0,,,1
+717010,Operador de Martelete,0,2,-2,0,0.0,,,2
+717025,Vibradorista,1,2,-1,0,0.0,3500.0,3500.0,3
+720135,Mestre de Pintura (Tratamento de Superficies),3,0,3,0,,2437.37,2437.37,3
+721105,Ferramenteiro,0,1,-1,0,0.0,,,1
+721220,Operador de Usinagem Convencional por Abrasao,6,7,-1,0,0.0,2100.0,2823.67,13
+721325,Polidor de Metais,0,1,-1,0,0.0,,,1
+721405,Operador de Centro de Usinagem com Comando Numerico,1,0,1,0,,1900.0,1900.0,1
+722105,Forjador,2,0,2,0,,2117.98,2117.98,2
+724105,Assentador de Canalizacao (Edificacoes),1,1,0,0,0.0,2614.97,2614.97,2
+724115,Instalador de Tubulacoes,1,3,-2,0,0.0,510.0,510.0,4
+724505,Operador de Maquina de Cilindrar Chapas,0,2,-2,0,0.0,,,2
+724515,Prensista (Operador de Prensa),2,1,1,0,0.0,1710.5,1710.5,3
+725010,Ajustador Mecanico,8,2,6,0,0.0,1621.0,1621.0,10
+725410,Mecanico Montador de Motores de Embarcacoes,1,0,1,0,,3359.4,3359.4,1
+725415,Mecanico Montador de Motores de Explosao e Diesel,1,0,1,0,,2000.0,2000.0,1
+725505,Montador de Veiculos (Linha de Montagem),1,1,0,0,0.0,1850.0,1850.0,2
+730105,Supervisor de Montagem e Instalacao Eletroeletronica,3,2,1,0,0.0,1930.0,2551.67,5
+731130,Montador de Equipamentos Eletricos (Motores e Dinamos),3,2,1,0,0.0,2000.0,1933.33,5
+731135,Montador de Equipamentos Eletricos,2,1,1,0,0.0,1700.0,1700.0,3
+731205,"Montador de Equipamentos Eletronicos (Estacao de Radio, Tv e Equipamentos de Radar)",0,1,-1,0,0.0,,,1
+731305,Instalador-Reparador de Equipamentos de Comutacao em Telefonia,1,0,1,0,,2033.39,2033.39,1
+731330,Reparador de Aparelhos de Telecomunicacoes em Laboratorio,1,2,-1,0,0.0,1621.0,1621.0,3
+732125,Instalador Eletricista (Tracao de Veiculos),1,0,1,0,,2000.0,2000.0,1
+760125,Mestre (Industria Textil e de Confeccoes),2,0,2,0,,1621.0,1621.0,2
+760305,Encarregado de Corte na Confeccao do Vestuario,0,1,-1,0,0.0,,,1
+760505,"Supervisor da Confeccao de Artefatos de Tecidos, Couros e Afins",2,3,-1,0,0.0,2125.0,2125.0,5
+760605,Supervisor das Artes Graficas  (Industria Editorial e Grafica),1,1,0,0,0.0,2000.0,2000.0,2
+761205,Operador de Abertura (Fiacao),0,1,-1,0,0.0,,,1
+762345,Vaqueador de Couros e Peles,0,1,-1,0,0.0,,,1
+763005,Alfaiate,1,0,1,0,,1621.0,1621.0,1
+763105,Auxiliar de Corte (Preparacao da Confeccao de Roupas),2,2,0,0,0.0,1611.24,1611.24,4
+766150,Operador de Processo de Tratamento de Imagem,1,0,1,0,,2500.0,2500.0,1
+766215,Impressor de Ofsete (Plano e Rotativo),2,0,2,0,,2200.0,2200.0,2
+766220,Impressor de Rotativa,1,1,0,0,0.0,1621.0,1621.0,2
+766235,Impressor Flexografico,2,2,0,0,0.0,3913.14,3913.14,4
+766250,Impressor Tipografico,1,0,1,0,,2500.0,2500.0,1
+766310,Impressor de Corte e Vinco,1,1,0,0,0.0,1621.0,1621.0,2
+766405,Laboratorista Fotografico,1,0,1,0,,1700.0,1700.0,1
+768110,"Tecelao de Tapetes, a  Mao",1,2,-1,0,0.0,1621.0,1621.0,3
+768205,"Bordador, a  Mao",3,1,2,0,0.0,1621.0,1747.33,4
+768305,Artifice do Couro,4,0,4,0,,,,4
+768705,"Gravador, À Mao (Encadernacao)",1,0,1,0,,2000.0,2000.0,1
+770105,Mestre (Industria de Madeira e Mobiliario),1,1,0,0,0.0,3000.0,3000.0,2
+772105,Classificador de Madeira,0,1,-1,0,0.0,,,1
+773105,Cortador de Laminados de Madeira,0,2,-2,0,0.0,,,2
+773120,Serrador de Madeira,0,3,-3,0,0.0,,,3
+773510,Operador de Maquinas de Usinar Madeira (Cnc),0,1,-1,0,0.0,,,1
+782125,Operador de Monta-Cargas (Construcao Civil),1,0,1,0,,2758.01,2758.01,1
+782720,Moco de Maquinas (Maritimo e Fluviario),2,2,0,0,0.0,1991.0,1991.0,4
+782730,Marinheiro Auxiliar de Convés (Marítimo e Aquaviário),0,1,-1,0,0.0,,,1
+782815,Boiadeiro,0,1,-1,0,0.0,,,1
+783235,Trabalhador Portuario de Capatazia,1,1,0,0,0.0,2015.59,2015.59,2
+810105,Mestre (Industria Petroquimica e Carboquimica),1,0,1,0,,2160.0,2160.0,1
+810205,Mestre (Industria de Borracha e Plastico),1,0,1,0,,2620.0,2620.0,1
+811010,"Operador de Sala de Controle de Instalacoes Quimicas, Petroquimicas e Afins",1,0,1,0,,4000.0,4000.0,1
+811820,"Operador de Maquina de Fabricacao de Produtos de Higiene e Limpeza (Sabao, Sabonete, Detergente, Absorvente, Fraldas Cotonetes e Outros)",0,2,-2,0,0.0,,,2
+813115,"Operador de Extrusora (Quimica, Petroquimica e Afins)",5,0,5,0,,2000.0,2340.0,5
+813125,"Operador de Producao (Quimica, Petroquimica e Afins)",0,1,-1,0,0.0,,,1
+813130,"Tecnico de Operacao (Quimica, Petroquimica e Afins)",0,1,-1,0,0.0,,,1
+818105,Assistente de Laboratorio Industrial,1,0,1,0,,5000.0,5000.0,1
+820205,"Supervisor de Fabricacao de Produtos Ceramicos, Porcelanatos e Afins",1,0,1,0,,1960.65,1960.65,1
+820210,Supervisor de Fabricacao de Produtos de Vidro,2,3,-1,0,0.0,2750.0,2750.0,5
+821220,Forneiro e Operador (Refino de Metais Nao-Ferrosos),1,0,1,0,,1621.0,1621.0,1
+821255,Soprador de Convertedor,1,0,1,0,,3000.0,3000.0,1
+821305,Operador de Laminador,1,0,1,0,,1621.0,1621.0,1
+840120,Chefe de Confeitaria,2,0,2,0,,2017.5,2017.5,2
+841115,Operador de Processo de Moagem,1,0,1,0,,1716.0,1716.0,1
+841210,Refinador de Sal,0,1,-1,0,0.0,,,1
+841464,Prensador de Frutas (Exceto Oleaginosas),2,0,2,0,,2475.0,2475.0,2
+841505,Trabalhador de Tratamento do Leite e Fabricacao de Laticinios e Afins,0,1,-1,0,0.0,,,1
+861110,Operador de Quadro de Distribuicao de Energia Eletrica,0,27,-27,0,0.0,,,27
+862120,Operador de Caldeira,6,1,5,0,0.0,1710.5,2165.2,7
+862305,Operador de Estacao de Tratamento de Agua e Efluentes,1,6,-5,0,0.0,1831.0,1831.0,7
+862505,Operador de Instalacao de Refrigeracao,1,0,1,0,,1800.37,1800.37,1
+910105,Encarregado de Manutencao Mecanica de Sistemas Operacionais,6,5,1,0,0.0,3287.73,4930.84,11
+910210,Supervisor da Manutencao e Reparacao de Veiculos Pesados,2,0,2,0,,5000.0,5000.0,2
+911310,Mecanico de Manutencao de Maquinas Graficas,0,1,-1,0,0.0,,,1
+911315,Mecanico de Manutencao de Maquinas Operatrizes (Lavra de Madeira),3,0,3,0,,3407.51,3407.51,3
+911320,Mecanico de Manutencao de Maquinas Texteis,1,0,1,0,,1621.0,1621.0,1
+919105,Lubrificador Industrial,1,1,0,0,0.0,1800.37,1800.37,2
+950105,Supervisor de Manutencao Eletrica de Alta Tensao Industrial,3,8,-5,0,0.0,4400.0,4161.81,11
+950110,"Supervisor de Manutencao Eletromecanica Industrial, Comercial e Predial",2,2,0,0,0.0,3350.0,3350.0,4
+954125,Operador Eletromecanico,0,1,-1,0,0.0,,,1
+954205,Reparador de Aparelhos Eletrodomesticos (Exceto Imagem e Som),1,0,1,0,,1621.0,1621.0,1
+999999,Não Identificado,8,0,8,0,,1621.0,4563.41,8

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Para citar, use os metadados abaixo."
+title: "Novo CAGED por município: análise reprodutível e conferida"
+abstract: "Rotatividade por ocupação (CBO 2002) num município brasileiro a partir dos microdados do Novo CAGED, com cálculo determinístico pelo método de ajuste oficial, conferência número a número contra a divulgação do Ministério do Trabalho e Emprego, registro de cada execução e auditoria independente. Caso aplicado: Boa Vista (RR), 10/2025 a 09/2026."
+type: software
+authors:
+  - given-names: "Diêgo"
+    family-names: "Azevedo"
+    orcid: "https://orcid.org/0009-0009-1839-7476"
+version: "0.1"
+license: Apache-2.0
+keywords:
+  - Novo CAGED
+  - rotatividade
+  - mercado de trabalho
+  - reprodutibilidade
+  - sistemas agênticos

@@ -1,0 +1,6 @@
+dados/brutos
+dados/brutos/
+dados/linhas/
+.venv/
+__pycache__/
+dados/oficial/*.pdf
