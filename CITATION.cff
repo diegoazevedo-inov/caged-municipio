@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Para citar, use os metadados abaixo."
-title: "Novo CAGED por município: análise reprodutível e conferida"
-abstract: "Rotatividade por ocupação (CBO 2002) num município brasileiro a partir dos microdados do Novo CAGED, com cálculo determinístico pelo método de ajuste oficial, conferência número a número contra a divulgação do Ministério do Trabalho e Emprego, registro de cada execução e auditoria independente. Caso aplicado: Boa Vista (RR), 10/2025 a 09/2026."
+title: "Novo CAGED por município: movimentação e desligamentos a pedido por ocupação"
+abstract: "Admissões, desligamentos, desligamentos a pedido e salário de admissão por ocupação (CBO 2002) num município brasileiro a partir dos microdados do Novo CAGED, com cálculo determinístico pelo método de ajuste oficial, conferência dos números da UF contra a divulgação do Ministério do Trabalho e Emprego, teste do pipeline sobre dados sintéticos, registro de cada execução e auditoria independente documentada. Caso aplicado: Boa Vista (RR), 10/2025 a 09/2026."
 type: software
 authors:
   - given-names: "Diêgo"
@@ -11,7 +11,7 @@ version: "0.1"
 license: Apache-2.0
 keywords:
   - Novo CAGED
-  - rotatividade
+  - desligamento a pedido
   - mercado de trabalho
   - reprodutibilidade
   - sistemas agênticos

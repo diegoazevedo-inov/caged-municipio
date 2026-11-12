@@ -3,6 +3,9 @@
 
 Uso: python -I teste_conferencia.py   (precisa de  caged.py extrair --uf 14 --ini 202510 --fim 202609)
 Sai com 0 se a conferência PASSA nos dados reais e NÃO PASSA nos dados com defeito.
+
+Alcance: exercita só `conferir` sobre linhas já extraídas. Defeitos em `extrair` (tipos de arquivo, sinal, filtro
+de UF e de janela) e nos indicadores por município e ocupação são cobertos por teste_sintetico.py.
 """
 import argparse
 import shutil

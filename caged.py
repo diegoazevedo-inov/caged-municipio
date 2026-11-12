@@ -29,6 +29,7 @@ import sys
 import tempfile
 from pathlib import Path
 
+import openpyxl
 import pandas as pd
 import py7zr
 
@@ -47,6 +48,9 @@ A_PEDIDO = 40
 COLS = ["competênciamov", "uf", "município", "cbo2002ocupação", "saldomovimentação",
         "tipomovimentação", "salário", "unidadesaláriocódigo", "categoria", "indtrabintermitente"]
 TIPOS = (("MOV", 1), ("FOR", 1), ("EXC", -1))
+# gzip sem horário no cabeçalho: o mesmo conteúdo dá o mesmo SHA-256
+GZIP = {"method": "gzip", "mtime": 0}
+INICIO = dt.datetime.now().astimezone()
 
 
 # ---------- utilidades ----------
@@ -87,16 +91,17 @@ def rel(p: Path) -> str:
 
 def registrar(comando: str, args: dict, entradas: list, saidas: list, resultado):
     EXECUCOES.mkdir(exist_ok=True)
-    agora = dt.datetime.now().astimezone()
+    fim = dt.datetime.now().astimezone()
     reg = {
-        "comando": comando, "argumentos": args, "inicio": agora.isoformat(timespec="seconds"),
+        "comando": comando, "argumentos": args,
+        "inicio": INICIO.isoformat(timespec="seconds"), "fim": fim.isoformat(timespec="seconds"),
         "commit": commit(), "python": platform.python_version(), "pandas": pd.__version__,
-        "py7zr": py7zr.__version__,
+        "py7zr": py7zr.__version__, "openpyxl": openpyxl.__version__,
         "entradas": {rel(p): sha256(p) for p in entradas},
         "saidas": {rel(p): sha256(p) for p in saidas},
         "resultado": resultado,
     }
-    arq = EXECUCOES / f"{agora:%Y%m%dT%H%M%S}-{comando}.json"
+    arq = EXECUCOES / f"{fim:%Y%m%dT%H%M%S}-{comando}.json"
     arq.write_text(json.dumps(reg, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"registro: {rel(arq)}")
 
@@ -148,6 +153,8 @@ def carregar(recorte: str, ini: str, fim: str) -> pd.DataFrame:
     d = pd.read_csv(p, dtype=str)
     if tipo == "mun":
         d = d[d["município"] == codigo]
+    if d.empty:
+        sys.exit(f"recorte {recorte} sem nenhuma linha em {p.name}: código inexistente ou fora da UF extraída")
     d["sinal"] = d["sinal"].astype(int)
     d["tipo"] = d["tipomovimentação"].astype(int)
     d["adm"] = d["tipo"].isin(ADMISSAO) * d["sinal"]
@@ -187,10 +194,24 @@ def extrair(a):
     LINHAS.mkdir(parents=True, exist_ok=True)
     SAIDAS.mkdir(parents=True, exist_ok=True)
     out = arq_linhas(a.uf, a.ini, a.fim)
-    pd.concat(blocos, ignore_index=True).to_csv(out, index=False)
+    pd.concat(blocos, ignore_index=True).to_csv(out, index=False, compression=GZIP)
     man = SAIDAS / f"manifesto_{a.ini}_{a.fim}.csv"
-    pd.DataFrame(manifesto).to_csv(man, index=False)
-    registrar("extrair", vars(a), entradas, [out, man], {"linhas": int(sum(len(b) for b in blocos))})
+    novo = pd.DataFrame(manifesto)
+    difere = comparar_manifesto(man, novo)
+    novo.to_csv(man, index=False)
+    registrar("extrair", vars(a), entradas, [out, man],
+              {"linhas": int(sum(len(b) for b in blocos)), "difere_do_manifesto_anterior": difere})
+
+
+def comparar_manifesto(man: Path, novo: pd.DataFrame) -> list:
+    """Arquivos baixados cujo SHA-256 difere do manifesto que já existia (o PDET pode republicar)."""
+    if not man.exists():
+        return []
+    antes = pd.read_csv(man, dtype=str).set_index("arquivo")["sha256"]
+    difere = [r.arquivo for r in novo.itertuples() if antes.get(r.arquivo) not in (None, r.sha256)]
+    for arq in difere:
+        print(f"ATENÇÃO: {arq} difere do manifesto anterior (SHA-256)", flush=True)
+    return difere
 
 
 def agregar(a):
