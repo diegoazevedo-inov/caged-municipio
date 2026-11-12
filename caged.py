@@ -106,28 +106,37 @@ def registrar(comando: str, args: dict, entradas: list, saidas: list, resultado)
     print(f"registro: {rel(arq)}")
 
 
-def baixar(tipo: str, comp: str) -> Path:
-    destino = BRUTOS / f"CAGED{tipo}{comp}.7z"
-    if not destino.exists() or destino.stat().st_size == 0:
-        BRUTOS.mkdir(parents=True, exist_ok=True)
-        url = f"{FTP}/{comp[:4]}/{comp}/CAGED{tipo}{comp}.7z"
-        subprocess.run(["curl", "-sS", "--fail", "--retry", "3", "-o", str(destino), url], check=True)
+def baixar_url(url: str, destino: Path) -> Path:
+    """Baixa para um arquivo .parte e só renomeia quando o curl termina com sucesso:
+    um download interrompido não deixa arquivo truncado com o nome final."""
+    if destino.exists() and destino.stat().st_size > 0:
+        return destino
+    BRUTOS.mkdir(parents=True, exist_ok=True)
+    parte = destino.with_name(destino.name + ".parte")
+    r = subprocess.run(["curl", "-sS", "--fail", "--retry", "3", "-o", str(parte), url])
+    if r.returncode != 0:
+        parte.unlink(missing_ok=True)
+        sys.exit(f"falha ao baixar {url} (curl saiu com {r.returncode}); rode o comando de novo")
+    parte.replace(destino)
     return destino
+
+
+def baixar(tipo: str, comp: str) -> Path:
+    return baixar_url(f"{FTP}/{comp[:4]}/{comp}/CAGED{tipo}{comp}.7z", BRUTOS / f"CAGED{tipo}{comp}.7z")
 
 
 def baixar_layout() -> Path:
-    destino = BRUTOS / "layout.xlsx"
-    if not destino.exists() or destino.stat().st_size == 0:
-        BRUTOS.mkdir(parents=True, exist_ok=True)
-        subprocess.run(["curl", "-sS", "--fail", "--retry", "3", "-o", str(destino), URL_LAYOUT], check=True)
-    return destino
+    return baixar_url(URL_LAYOUT, BRUTOS / "layout.xlsx")
 
 
 def ler_uf(arq7z: Path, uf: str) -> pd.DataFrame:
     tmp = Path(tempfile.mkdtemp())
     try:
-        with py7zr.SevenZipFile(arq7z) as z:
-            z.extractall(tmp)
+        try:
+            with py7zr.SevenZipFile(arq7z) as z:
+                z.extractall(tmp)
+        except py7zr.exceptions.Bad7zFile as e:
+            sys.exit(f"{arq7z.name} corrompido ({e}); apague o arquivo e rode o comando de novo para baixá-lo")
         txt = next(tmp.rglob("*.txt"))
         partes = []
         for ch in pd.read_csv(txt, sep=";", dtype=str, chunksize=500_000, usecols=lambda c: c in COLS,

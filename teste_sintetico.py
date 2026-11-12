@@ -8,7 +8,8 @@ Cobre o que a conferência oficial (só UF: admissões, desligamentos, saldo) n�
 desligamento a pedido, recorte por município, os cinco filtros do salário de admissão (unidade mensal,
 intermitente, aprendiz, piso e teto), título da CBO, série com e sem ajuste, janela de competências,
 sinal do CAGEDEXC, UF filtrada na extração, SHA-256 reprodutível das linhas, aviso de bruto diferente do
-manifesto e erro para recorte inexistente. Ficam fora o download (baixar) e a conferência (teste_conferencia.py).
+manifesto, erro para recorte inexistente, download que falha sem deixar arquivo e .7z corrompido com
+mensagem de orientação. O download real fica fora (o teste usa file://); a conferência tem teste próprio.
 
 Dados (janela 202601-202602, UF 14). Município 140010 é o recorte; 140015 compartilha o prefixo 14001.
   MOV 202601  r1  140010 521110 adm  tipo 10  R$ 2.000
@@ -169,6 +170,30 @@ def main():
         except SystemExit as e:
             codigo = 0 if e.code in (None, 0) else 1
         checar("recorte inexistente sai com erro", codigo, 1)
+
+        # download: sucesso copia, falha não deixa arquivo com o nome final nem .parte
+        origem = tmp / "origem.bin"
+        origem.write_bytes(b"conteudo")
+        ok = caged.baixar_url(origem.as_uri(), caged.BRUTOS / "baixado.bin")
+        checar("download bem-sucedido grava o arquivo", ok.read_bytes(), b"conteudo")
+        try:
+            caged.baixar_url((tmp / "nao-existe.bin").as_uri(), caged.BRUTOS / "falhou.bin")
+            codigo = 0
+        except SystemExit as e:
+            codigo = 0 if e.code in (None, 0) else 1
+        sobras = sorted(p.name for p in caged.BRUTOS.glob("falhou.bin*"))
+        checar("download que falha sai com erro e não deixa arquivo", (codigo, sobras), (1, []))
+
+        # .7z truncado: mensagem de orientação, não traceback
+        bom = caged.BRUTOS / "CAGEDMOV202601.7z"
+        truncado = caged.BRUTOS / "CAGEDMOV209901.7z"
+        truncado.write_bytes(bom.read_bytes()[: bom.stat().st_size // 2])
+        try:
+            caged.ler_uf(truncado, "14")
+            msg = ""
+        except SystemExit as e:
+            msg = str(e.code)
+        checar("7z truncado orienta apagar e baixar de novo", "apague o arquivo" in msg, True)
     finally:
         shutil.rmtree(tmp)
 

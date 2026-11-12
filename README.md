@@ -48,7 +48,7 @@ python -m venv .venv && .venv/bin/pip install -r requirements.txt
 git diff --stat dados/saidas/                                                 # vazio = mesmos brutos e mesmos resultados
 ```
 
-Os arquivos brutos não são redistribuídos. `dados/saidas/manifesto_202510_202609.csv` lista o endereço, o tamanho e o SHA-256 de cada um. O `extrair` avisa (e guarda no registro) quando um arquivo baixado difere do manifesto existente, o que acontece se o PDET republicar o arquivo. As linhas extraídas são gravadas sem horário no cabeçalho gzip, então o mesmo conteúdo dá o mesmo SHA-256 na mesma versão da zlib (verificado com a zlib 1.3.1). Outra implementação de deflate pode gerar bytes diferentes para o mesmo conteúdo; nesse caso, compare o CSV descompactado.
+Os arquivos brutos não são redistribuídos. `dados/saidas/manifesto_202510_202609.csv` lista o endereço, o tamanho e o SHA-256 de cada um. O `extrair` avisa (e guarda no registro) quando um arquivo baixado difere do manifesto existente, o que acontece se o PDET republicar o arquivo. Cada download vai para um arquivo `.parte` e só recebe o nome final quando termina; se a conexão cair, basta rodar o comando de novo. As linhas extraídas são gravadas sem horário no cabeçalho gzip, então o mesmo conteúdo dá o mesmo SHA-256 na mesma versão da zlib (verificado com a zlib 1.3.1). Outra implementação de deflate pode gerar bytes diferentes para o mesmo conteúdo; nesse caso, compare o CSV descompactado.
 
 ## Método
 
