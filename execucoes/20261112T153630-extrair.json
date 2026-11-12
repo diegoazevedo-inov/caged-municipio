@@ -1,0 +1,60 @@
+{
+  "comando": "extrair",
+  "argumentos": {
+    "cmd": "extrair",
+    "ini": "202510",
+    "fim": "202609",
+    "uf": "14"
+  },
+  "inicio": "2026-11-12T15:36:30-04:00",
+  "commit": "9321b30",
+  "python": "3.14.4",
+  "pandas": "3.1.1",
+  "py7zr": "1.1.4",
+  "entradas": {
+    "dados/brutos/CAGEDMOV202510.7z": "0458f5a2073c4ceb41ee4b936ef11f07d3886304af2bc3493e7b0c13f7709ae6",
+    "dados/brutos/CAGEDFOR202510.7z": "dc34aafe79049510f9719d169b53fd6affaa4376133b360dcd1ca1378008fcb6",
+    "dados/brutos/CAGEDEXC202510.7z": "ab83ad490f88fd6d7ddad390ac2ef9018f0cca234e9a68142b535aa40003e59b",
+    "dados/brutos/CAGEDMOV202511.7z": "568331592cdd7a5749ebaf3d63a791ad69fe43b94ad10063f049138d6b7038a5",
+    "dados/brutos/CAGEDFOR202511.7z": "ed89a6a19c366f46615725b83140d5acf0d9858fcc5ac43b0e9d772f610187b7",
+    "dados/brutos/CAGEDEXC202511.7z": "0451679052762f640272b21d414eb2e23f2e9a2ccfa15a570faae79b41d5ba69",
+    "dados/brutos/CAGEDMOV202512.7z": "b6222e474ca881664903dc2ee3f6e6151a6a4b680e5dba08820cd9240c2036e2",
+    "dados/brutos/CAGEDFOR202512.7z": "6c87583bbe19b7fcae2c936ed35bda6f68c4245d2498eb576cfb89fb58212639",
+    "dados/brutos/CAGEDEXC202512.7z": "60c85ce015caf055099c1e5437c5a2027dc4b1c17ffaea1ea74b2712bf130e7e",
+    "dados/brutos/CAGEDMOV202601.7z": "9f9bf39e7a0e2703632e4bf0f203b626e30963c9a618757840ee4a8eb552bb4a",
+    "dados/brutos/CAGEDFOR202601.7z": "fb642eb5effa24ebc10f465090f6741954cea6a613d0375424206afe2712705f",
+    "dados/brutos/CAGEDEXC202601.7z": "0429f9618fa6f0c4910603b85fd4cb8848ca5a20309c60ec947678383801f4b8",
+    "dados/brutos/CAGEDMOV202602.7z": "8e6c00142d62162271cd244ad5019482336140a00113635bb93e15a242b6b4f7",
+    "dados/brutos/CAGEDFOR202602.7z": "a193ad2b3f689fabd4ba3b8d907694090a23d7ef3bdb5c3f00f0df1939fca1c3",
+    "dados/brutos/CAGEDEXC202602.7z": "3ef2bacf1d24fb4db6ef66d2ae5e9af00b97e8bf23d940c8fafe272ff176b961",
+    "dados/brutos/CAGEDMOV202603.7z": "9851c1f07b5f7b7c07d24b5146d64c6b7cfea76ba0344d8514119dba001a2d57",
+    "dados/brutos/CAGEDFOR202603.7z": "a55043dda621f9973f5e4b93a95234896bbc02ba22982ce7e5021b011f7e8bb2",
+    "dados/brutos/CAGEDEXC202603.7z": "e7ce62d3379d5c32f68c06b4ed968468e3f17bc665eecc809a9c04df3488a2b1",
+    "dados/brutos/CAGEDMOV202604.7z": "2fb853d922027390ecbdc46d17063597137c688f21cfa94debad62beba16c4ae",
+    "dados/brutos/CAGEDFOR202604.7z": "5e3194f7ebdecfd79e16a64cdb7b194dc6c92b847b211defdc1bd01d2b89e5fa",
+    "dados/brutos/CAGEDEXC202604.7z": "5ccf80f98cda4f8a6f4e607546d94d406434fceb6e67b5fca681a13c0e7c2334",
+    "dados/brutos/CAGEDMOV202605.7z": "e3f5317074d0cf48037e82f41fbec7199c5e9273689403c75f3af1ef3fe06d91",
+    "dados/brutos/CAGEDFOR202605.7z": "ca02436e407e6c54a5dd54a2494e5f377b244fc4473fa2cca7ab05ce6d35929b",
+    "dados/brutos/CAGEDEXC202605.7z": "4cc25292b1beeb1b1c354b56d2e167170e7dc494b1ebd94cf2b844615b5c725f",
+    "dados/brutos/CAGEDMOV202606.7z": "3e2f9294cad913f8398f6a07033f6a6fedd5150f3b2d8beb10243e3d70c2f690",
+    "dados/brutos/CAGEDFOR202606.7z": "1dfa84365addc09bfd65e89eb49bff48d4a4e2ed2ebe8dfccabe7cd57e195eab",
+    "dados/brutos/CAGEDEXC202606.7z": "f5e761a370845a67b9db865c6b0019029a10d901512eab0c87831be19cd0f419",
+    "dados/brutos/CAGEDMOV202607.7z": "ab0d31468bc981d26196c73afc20e5b77b55de534b04b20cc9fb50d85293ad97",
+    "dados/brutos/CAGEDFOR202607.7z": "ae99cbfb956bd1a77e618a86e5d172154c2cfd00938a593d230f6856d43b2d02",
+    "dados/brutos/CAGEDEXC202607.7z": "4f3a44592e191f5ce80fdbbf8361d1351a6af48b4ef04e45282043eec7d2527e",
+    "dados/brutos/CAGEDMOV202608.7z": "18b52ae487c840afb392295660d451d27eba644fead114c257adab73e0494dcd",
+    "dados/brutos/CAGEDFOR202608.7z": "953c103fa2dd46633f0711ea3c114637a6897114df5fac9558b955d36c671951",
+    "dados/brutos/CAGEDEXC202608.7z": "a8b85396bedbd1facfa40490c632aaab778fc2e971eebd45cd41f952557d67fe",
+    "dados/brutos/CAGEDMOV202609.7z": "967a29800166b32ba4f9d786e95b53122eed6dbd78ca94da783290d67cd5d50d",
+    "dados/brutos/CAGEDFOR202609.7z": "2646a98e115577be8606fb0f3ba772a2e5dde7e749211a35065f2cce8f13c056",
+    "dados/brutos/CAGEDEXC202609.7z": "96cd1af3eac03ec65e0dd12693f9fa4669ca3c049bbc21b6fc1d45f862124ba8",
+    "dados/brutos/layout.xlsx": "0490f7ef84fd05db2d89cf22f56d8cf7262ceb14c9d7db1cca2bae422e6423ce"
+  },
+  "saidas": {
+    "dados/linhas/uf14_202510_202609.csv.gz": "cb38e0397f55330ab97d3940796d5f9f7c9a06ff4e35b879874407fb7c2954bc",
+    "dados/saidas/manifesto_202510_202609.csv": "00e8a288ac3a9c82aac35feab8f4c011f12bc62bfca50f63f562240ba9b2a490"
+  },
+  "resultado": {
+    "linhas": 105024
+  }
+}
