@@ -32,9 +32,9 @@
 
 A divulgação mensal do MTE traz números por UF, não por município. A conferência é feita na UF, e o município é um recorte das mesmas linhas.
 
-- **Critério, fixado antes da execução:** cada número transcrito em `dados/oficial/*.csv` (com arquivo e página) tem de ser reproduzido com diferença **zero**. Qualquer diferença é investigada e explicada neste arquivo antes de publicar; sem explicação, o pacote não sai.
-- **Alcance:** a conferência cobre admissões, desligamentos e saldo da UF. O recorte municipal, o desligamento a pedido, o salário e o título da CBO não têm número oficial para comparar; são verificados por `teste_sintetico.py`, que roda o pipeline completo sobre arquivos sintéticos com resultado calculado à mão.
-- **Defeitos plantados:** a conferência tem de acusar uma alteração proposital nas linhas extraídas (`teste_conferencia.py`), e o teste sintético tem de acusar cada defeito de `auditoria/rodada-1/defeitos_plantados.sh`.
+- **Critério, fixado antes da execução (declaração do autor):** cada número transcrito em `dados/oficial/*.csv` (com arquivo e página) tem de ser reproduzido com diferença **zero**. Qualquer diferença é investigada e explicada neste arquivo antes de publicar; sem explicação, o pacote não sai.
+- **Alcance:** a conferência cobre admissões, desligamentos e saldo da UF. O recorte municipal, o desligamento a pedido, o salário e o título da CBO não têm número oficial para comparar; são verificados por `teste_sintetico.py`, que roda a extração e a agregação sobre arquivos sintéticos com resultado calculado à mão. O teste cobre os cinco filtros do salário, a série com e sem ajuste e o aviso de bruto diferente do manifesto. Ficam fora dele o download e a conferência, que tem teste próprio.
+- **Defeitos plantados:** a conferência tem de acusar uma alteração proposital nas linhas extraídas (`teste_conferencia.py`), e o teste sintético tem de acusar cada defeito de `auditoria/rodada-2/defeitos_plantados.sh`.
 
 ## Papel do agente de IA
 

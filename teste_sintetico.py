@@ -5,8 +5,10 @@ Uso: python -I teste_sintetico.py   (não baixa nada; roda em segundos)
 Sai com 0 se todas as verificações passam.
 
 Cobre o que a conferência oficial (só UF: admissões, desligamentos, saldo) não mede:
-desligamento a pedido, recorte por município, salário de admissão, título da CBO, janela de competências,
-sinal do CAGEDEXC, UF filtrada na extração, SHA-256 reprodutível das linhas e erro para recorte inexistente.
+desligamento a pedido, recorte por município, os cinco filtros do salário de admissão (unidade mensal,
+intermitente, aprendiz, piso e teto), título da CBO, série com e sem ajuste, janela de competências,
+sinal do CAGEDEXC, UF filtrada na extração, SHA-256 reprodutível das linhas, aviso de bruto diferente do
+manifesto e erro para recorte inexistente. Ficam fora o download (baixar) e a conferência (teste_conferencia.py).
 
 Dados (janela 202601-202602, UF 14). Município 140010 é o recorte; 140015 compartilha o prefixo 14001.
   MOV 202601  r1  140010 521110 adm  tipo 10  R$ 2.000
@@ -20,13 +22,18 @@ Dados (janela 202601-202602, UF 14). Município 140010 é o recorte; 140015 comp
               r9  140010 521110 adm  tipo 25  aprendiz (categoria 103), R$ 700: conta, mas fora do salário
   MOV 202602  r10 140010 521110 adm  tipo 20  R$ 3.000
               r11 140010 521110 desl tipo 40  a pedido
+              r15 140010 521110 adm  tipo 10  R$ 1.000, intermitente: conta, mas fora do salário
+              r16 140010 521110 adm  tipo 10  R$ 2.500, unidade 3 (não mensal): conta, mas fora do salário
+              r17 140010 521110 adm  tipo 10  R$ 150, abaixo do piso de 200: conta, mas fora do salário
   FOR 202601  r12 competência 202512 (fora da janela)
-  FOR 202602  r13 competência 202601, 140010 411005 adm tipo 10 R$ 2.500 (fora do prazo: entra só com ajuste)
+  FOR 202602  r13 competência 202601, 140010 411005 adm  tipo 10 R$ 2.500 (fora do prazo: entra só com ajuste)
+              r18 competência 202601, 140010 411005 desl tipo 31 (fora do prazo, sem exclusão: separa com e sem ajuste)
   EXC 202601  vazio
   EXC 202602  r14 exclui a admissão r1 (sinal -1)
 """
 import argparse
 import hashlib
+import json
 import shutil
 import sys
 import tempfile
@@ -45,8 +52,8 @@ CAB = ["competênciamov", "região", "uf", "município", "seção", "cbo2002ocup
        "saldomovimentação", "tipomovimentação", "salário", "unidadesaláriocódigo", "indtrabintermitente"]
 
 
-def lin(comp, uf, mun, cbo, saldo, tipo, sal, cat="101"):
-    return [comp, "1", uf, mun, "G", cbo, cat, saldo, tipo, sal, "5", "0"]
+def lin(comp, uf, mun, cbo, saldo, tipo, sal, cat="101", unidade="5", intermitente="0"):
+    return [comp, "1", uf, mun, "G", cbo, cat, saldo, tipo, sal, unidade, intermitente]
 
 
 ARQUIVOS = {
@@ -64,9 +71,13 @@ ARQUIVOS = {
     ("MOV", "202602"): [
         lin("202602", "14", "140010", "521110", "1", "20", "3000,00"),
         lin("202602", "14", "140010", "521110", "-1", "40", "3000,00"),
+        lin("202602", "14", "140010", "521110", "1", "10", "1000,00", intermitente="1"),
+        lin("202602", "14", "140010", "521110", "1", "10", "2500,00", unidade="3"),
+        lin("202602", "14", "140010", "521110", "1", "10", "150,00"),
     ],
     ("FOR", "202601"): [lin("202512", "14", "140010", "521110", "1", "10", "2000,00")],
-    ("FOR", "202602"): [lin("202601", "14", "140010", "411005", "1", "10", "2500,00")],
+    ("FOR", "202602"): [lin("202601", "14", "140010", "411005", "1", "10", "2500,00"),
+                        lin("202601", "14", "140010", "411005", "-1", "31", "2500,00")],
     ("EXC", "202601"): [],
     ("EXC", "202602"): [lin("202601", "14", "140010", "521110", "1", "10", "2000,00")],
 }
@@ -75,12 +86,12 @@ TITULOS = {"411005": "Auxiliar de Escritorio, em Geral", "521110": "Vendedor de 
 
 # resultado esperado, calculado à mão a partir da tabela do docstring
 SERIE = {  # competência: admissões, desligamentos, saldo, a pedido, adm sem ajuste, desl sem ajuste, saldo sem ajuste
-    "202601": (4, 3, 1, 1, 4, 3, 1),   # adm r1 r2 r6 r9 r13 -r14; desl r3 r4 r5; sem ajuste: só MOV
-    "202602": (1, 1, 0, 1, 1, 1, 0),   # r10, r11
+    "202601": (4, 4, 0, 1, 4, 3, 1),   # adm r1 r2 r6 r9 r13 -r14; desl r3 r4 r5 r18; sem ajuste: só MOV
+    "202602": (4, 1, 3, 1, 4, 1, 3),   # adm r10 r15 r16 r17; desl r11
 }
 OCUPACOES = {  # cbo: título, adm, desl, saldo, a pedido, % a pedido, mediana, média, movimentações
-    "521110": ("Vendedor de Comercio Varejista", 3, 2, 1, 2, 100.0, 3000.0, 5000.0, 5),  # sal: r1 r2 r10
-    "411005": ("Auxiliar de Escritorio, em Geral", 2, 2, 0, 0, 0.0, 2150.0, 2150.0, 4),  # sal: r6 r13
+    "521110": ("Vendedor de Comercio Varejista", 6, 2, 4, 2, 100.0, 3000.0, 5000.0, 8),  # sal: r1 r2 r10
+    "411005": ("Auxiliar de Escritorio, em Geral", 2, 3, -1, 0, 0.0, 2150.0, 2150.0, 5),  # sal: r6 r13
 }
 
 
@@ -119,10 +130,18 @@ def main():
         checar("só a UF 14 nas linhas extraídas", sorted(linhas["uf"].unique()), ["14"])
         checar("competência fora da janela descartada", sorted(linhas["competênciamov"].unique()), [INI, FIM])
         h1 = hashlib.sha256(caged.arq_linhas("14", INI, FIM).read_bytes()).hexdigest()
+        # bruto "republicado": o manifesto anterior passa a ter outro SHA-256 para um arquivo
+        man = caged.SAIDAS / f"manifesto_{INI}_{FIM}.csv"
+        m = pd.read_csv(man, dtype=str)
+        m.loc[m["arquivo"] == "CAGEDFOR202602.7z", "sha256"] = "0" * 64
+        m.to_csv(man, index=False)
         time.sleep(1.1)  # o cabeçalho gzip guarda o horário em segundos
         caged.extrair(ext)
         h2 = hashlib.sha256(caged.arq_linhas("14", INI, FIM).read_bytes()).hexdigest()
         checar("SHA-256 das linhas igual em duas extrações", h1 == h2, True)
+        reg = json.loads(sorted(caged.EXECUCOES.glob("*-extrair.json"))[-1].read_text(encoding="utf-8"))
+        checar("aviso de bruto diferente do manifesto", reg["resultado"]["difere_do_manifesto_anterior"],
+               ["CAGEDFOR202602.7z"])
 
         caged.agregar(argparse.Namespace(recorte="mun:140010", ini=INI, fim=FIM))
         s = pd.read_csv(caged.SAIDAS / f"serie_mensal_mun140010_{INI}_{FIM}.csv", dtype={"competencia": str})
