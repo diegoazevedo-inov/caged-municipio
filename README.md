@@ -8,6 +8,8 @@ Admissões, desligamentos, desligamentos a pedido e salário de admissão por oc
 - registro de cada execução (comando, versões, commit, SHA-256 de entradas e saídas);
 - auditoria independente em sessões separadas, com briefing, parecer e correções em `auditoria/`.
 
+Versão 0.1 ([doi:10.5281/zenodo.24199769](https://doi.org/10.5281/zenodo.24199769)). Todas as versões: [doi:10.5281/zenodo.24199768](https://doi.org/10.5281/zenodo.24199768).
+
 O caso aplicado é Boa Vista (RR), de outubro de 2025 a setembro de 2026. Para analisar outro município da mesma UF, basta trocar o código; para outra UF, é preciso extrair as linhas dela antes.
 
 ## Conferência com a fonte oficial

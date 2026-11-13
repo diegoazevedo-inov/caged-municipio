@@ -8,6 +8,8 @@ authors:
     family-names: "Azevedo"
     orcid: "https://orcid.org/0009-0009-1839-7476"
 version: "0.1"
+doi: "10.5281/zenodo.24199768"
+repository-code: "https://github.com/diegoazevedo-inov/caged-municipio"
 license: Apache-2.0
 keywords:
   - Novo CAGED
