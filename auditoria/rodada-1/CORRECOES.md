@@ -1,5 +1,7 @@
 # Rodada 1: correções
 
+> Duas correções desta rodada foram revistas na rodada 2: a contagem de valores distintos (são 17) e o rótulo do saldo de 09/2026 na p. 31 (volta a "sem ajuste"). Ver [`../rodada-2/CORRECOES.md`](../rodada-2/CORRECOES.md).
+
 Parecer: [`PARECER.md`](PARECER.md), sobre o commit `e5ee630`. Veredito: **não pode**, com um bloqueio (G5-1) e ressalvas. As correções estão no commit `4c82547`. As saídas foram regeradas com esse código (registros `execucoes/20261112T182954-extrair.json`, `…T183003-conferir.json` e `…T183004-agregar.json`).
 
 ## Achado por achado

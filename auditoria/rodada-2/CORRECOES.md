@@ -14,7 +14,7 @@ As correções estão nos commits `fdc773b` e `34ebdc3`. As saídas foram regera
 | V4: "pipeline completo" | Passa a ser "extração e agregação". O protocolo diz o que fica fora (download real e conferência, que tem teste próprio). | `README.md`, `docs/PROTOCOLO.md` |
 | V5: rodada 2 sem registro | Esta pasta, com a linha da rodada 2 em `auditoria/README.md`. | `auditoria/` |
 | V6: SHA-256 do gzip e zlib | O README restringe a afirmação à mesma versão da zlib (1.3.1 verificada) e orienta comparar o CSV descompactado. | `README.md` |
-| V7: download interrompido deixa `.7z` truncado | O download vai para `<arquivo>.parte` e só recebe o nome final se o curl terminar com sucesso; na falha, o `.parte` é apagado e o comando sai com mensagem. Um `.7z` corrompido gera mensagem com orientação, não traceback. | `caged.py` (`baixar_url`, `ler_uf`), `teste_sintetico.py`, `README.md` |
+| V7: download interrompido deixa `.7z` truncado | O download vai para `<arquivo>.parte` e só recebe o nome final se o curl terminar com sucesso; na falha, o `.parte` é apagado e o comando sai com mensagem. Um `.7z` truncado gera mensagem com orientação, não traceback (corrigido na rodada 3: antes dizia "corrompido"). | `caged.py` (`baixar_url`, `ler_uf`), `teste_sintetico.py`, `README.md` |
 | G5-5 residual | "Critério, fixado antes da execução (declaração do autor)". | `docs/PROTOCOLO.md` |
 | N8: aviso do manifesto sem teste automático | O teste altera o SHA-256 de um arquivo no manifesto, extrai de novo e confere `difere_do_manifesto_anterior`. | `teste_sintetico.py` |
 

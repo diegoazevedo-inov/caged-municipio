@@ -8,8 +8,8 @@ Cobre o que a conferência oficial (só UF: admissões, desligamentos, saldo) n�
 desligamento a pedido, recorte por município, os cinco filtros do salário de admissão (unidade mensal,
 intermitente, aprendiz, piso e teto), título da CBO, série com e sem ajuste, janela de competências,
 sinal do CAGEDEXC, UF filtrada na extração, SHA-256 reprodutível das linhas, aviso de bruto diferente do
-manifesto, erro para recorte inexistente, download que falha sem deixar arquivo e .7z corrompido com
-mensagem de orientação. O download real fica fora (o teste usa file://); a conferência tem teste próprio.
+manifesto, erro para recorte inexistente, download que falha sem deixar arquivo e .7z truncado com
+mensagem de orientação (só truncado: bytes corrompidos no meio não são tratados). O download real fica fora (o teste usa file://); a conferência tem teste próprio.
 
 Dados (janela 202601-202602, UF 14). Município 140010 é o recorte; 140015 compartilha o prefixo 14001.
   MOV 202601  r1  140010 521110 adm  tipo 10  R$ 2.000
@@ -26,6 +26,7 @@ Dados (janela 202601-202602, UF 14). Município 140010 é o recorte; 140015 comp
               r15 140010 521110 adm  tipo 10  R$ 1.000, intermitente: conta, mas fora do salário
               r16 140010 521110 adm  tipo 10  R$ 2.500, unidade 3 (não mensal): conta, mas fora do salário
               r17 140010 521110 adm  tipo 10  R$ 150, abaixo do piso de 200: conta, mas fora do salário
+              r19 140010 521110 adm  tipo 10  R$ 60.000, acima do teto de 50.000: conta, mas fora do salário
   FOR 202601  r12 competência 202512 (fora da janela)
   FOR 202602  r13 competência 202601, 140010 411005 adm  tipo 10 R$ 2.500 (fora do prazo: entra só com ajuste)
               r18 competência 202601, 140010 411005 desl tipo 31 (fora do prazo, sem exclusão: separa com e sem ajuste)
@@ -75,6 +76,7 @@ ARQUIVOS = {
         lin("202602", "14", "140010", "521110", "1", "10", "1000,00", intermitente="1"),
         lin("202602", "14", "140010", "521110", "1", "10", "2500,00", unidade="3"),
         lin("202602", "14", "140010", "521110", "1", "10", "150,00"),
+        lin("202602", "14", "140010", "521110", "1", "10", "60000,00"),
     ],
     ("FOR", "202601"): [lin("202512", "14", "140010", "521110", "1", "10", "2000,00")],
     ("FOR", "202602"): [lin("202601", "14", "140010", "411005", "1", "10", "2500,00"),
@@ -88,10 +90,10 @@ TITULOS = {"411005": "Auxiliar de Escritorio, em Geral", "521110": "Vendedor de 
 # resultado esperado, calculado à mão a partir da tabela do docstring
 SERIE = {  # competência: admissões, desligamentos, saldo, a pedido, adm sem ajuste, desl sem ajuste, saldo sem ajuste
     "202601": (4, 4, 0, 1, 4, 3, 1),   # adm r1 r2 r6 r9 r13 -r14; desl r3 r4 r5 r18; sem ajuste: só MOV
-    "202602": (4, 1, 3, 1, 4, 1, 3),   # adm r10 r15 r16 r17; desl r11
+    "202602": (5, 1, 4, 1, 5, 1, 4),   # adm r10 r15 r16 r17 r19; desl r11
 }
 OCUPACOES = {  # cbo: título, adm, desl, saldo, a pedido, % a pedido, mediana, média, movimentações
-    "521110": ("Vendedor de Comercio Varejista", 6, 2, 4, 2, 100.0, 3000.0, 5000.0, 8),  # sal: r1 r2 r10
+    "521110": ("Vendedor de Comercio Varejista", 7, 2, 5, 2, 100.0, 3000.0, 5000.0, 9),  # sal: r1 r2 r10
     "411005": ("Auxiliar de Escritorio, em Geral", 2, 3, -1, 0, 0.0, 2150.0, 2150.0, 5),  # sal: r6 r13
 }
 
