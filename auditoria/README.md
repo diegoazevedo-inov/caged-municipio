@@ -5,6 +5,7 @@ Cada rodada é feita numa sessão nova, sem acesso ao trabalho de quem executou.
 | Rodada | Data | Tipo | Commit auditado | Parecer | Resultado |
 |---|---|---|---|---|---|
 | 1 | 12/11/2026 | completa (7 gates) | `e5ee630` | [`rodada-1/PARECER.md`](rodada-1/PARECER.md) | não pode: 1 bloqueio (G5-1) e 18 ressalvas. Correções em [`rodada-1/CORRECOES.md`](rodada-1/CORRECOES.md) |
-| 2 | — | verificação dirigida das correções da rodada 1 | — | — | pendente |
+| 2 | 12/11/2026 | verificação dirigida das correções da rodada 1, com reextração completa do PDET | `0f42f4c` | [`rodada-2/VERIFICACAO.md`](rodada-2/VERIFICACAO.md) | pode ir a público com ressalvas: bloqueio resolvido, 7 ressalvas (V1–V7). Correções em [`rodada-2/CORRECOES.md`](rodada-2/CORRECOES.md) |
+| 3 | — | verificação dirigida das correções da rodada 2 | — | — | pendente |
 
 Nos arquivos das rodadas, os caminhos absolutos da máquina foram trocados por `<repositório>`, `<pasta da auditoria>` e `<pasta temporária da sessão do auditor>`. O restante é o texto original.

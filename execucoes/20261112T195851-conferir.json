@@ -1,0 +1,28 @@
+{
+  "comando": "conferir",
+  "argumentos": {
+    "cmd": "conferir",
+    "ini": "202510",
+    "fim": "202609",
+    "oficial": "dados/oficial/novo-caged-2026-09-uf14.csv"
+  },
+  "inicio": "2026-11-12T19:58:51-04:00",
+  "fim": "2026-11-12T19:58:51-04:00",
+  "commit": "34ebdc3",
+  "python": "3.14.4",
+  "pandas": "3.1.1",
+  "py7zr": "1.1.4",
+  "openpyxl": "3.1.5",
+  "entradas": {
+    "dados/oficial/novo-caged-2026-09-uf14.csv": "ae046f5d0c36ea33ae8416e1379092c66e10335591ef4bae998ca1cbd7cb36b0",
+    "dados/linhas/uf14_202510_202609.csv.gz": "cf8457ce9821e838dc92357746d41c2d2609f2ddf47cfa9828bacebda0ee2c06"
+  },
+  "saidas": {
+    "dados/saidas/conferencia_novo-caged-2026-09-uf14.csv": "3f3dd74940ed9944eb6ca746e1ad0d43643d772a8ad0fc30076a6b89ba67e85a"
+  },
+  "resultado": {
+    "veredito": "PASSA",
+    "iguais": 18,
+    "total": 18
+  }
+}

@@ -1,0 +1,7 @@
+Você é auditor independente. Faça uma verificação dirigida do repositório `<repositório>`, que pretende ser público. Não leia nenhuma outra pasta do usuário além dessa e de `<pasta da auditoria>/`. Faça um clone para uma pasta temporária e trabalhe nele. Não altere o original, não crie repositório remoto, não faça push e não use modelo real nem API paga.
+
+O arquivo `<pasta da auditoria>/PARECER-a-verificar.md` é o parecer de uma auditoria anterior deste repositório. Para cada achado dele, diga se está resolvido, resolvido em parte ou não resolvido no commit atual, com arquivo, linha e evidência. Um achado está resolvido se o defeito foi corrigido ou se a limitação passou a estar declarada com precisão no texto.
+
+Além disso: rode a suíte de testes ou de verificação do repositório; confira o histórico (sem objetos soltos) e faça uma varredura de dados (segredos, caminhos pessoais, nomes de cliente, clínica ou paciente); audite os arquivos novos desde o parecer; e aponte qualquer afirmação nova introduzida pelas correções que vá além da evidência.
+
+Responda em português do Brasil, com veredito final: "pode ir a público", "pode ir a público com ressalvas" ou "não pode". Não invente achado. Ao terminar, grave a verificação completa em <pasta da auditoria>/VERIFICACAO.md.
